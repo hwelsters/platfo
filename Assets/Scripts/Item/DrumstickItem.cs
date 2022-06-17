@@ -1,0 +1,1 @@
+public class DrumstickItem : Item<PlayerBaseState> { }

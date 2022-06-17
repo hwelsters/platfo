@@ -1,0 +1,42 @@
+using UnityEngine;
+
+public abstract class PlayerState
+{
+    protected virtual float MOVE_SPEED { get { return 2f; } }
+    protected virtual float JUMP_SPEED { get { return 6.5f; } }
+
+    protected float xVelocity = 0f;
+    protected float yVelocity = 0f;
+
+    public abstract void HandleEnter(PlayerMovement playerMovement);
+
+    public virtual void HandleInput(PlayerMovement playerMovement)
+    {
+        Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
+
+        this.xVelocity = Input.GetAxisRaw("Horizontal") * this.MOVE_SPEED;
+        
+        bool pressedJump = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.C);
+        this.yVelocity = this.IsGrounded(playerMovement) && pressedJump ? this.JUMP_SPEED : rigidbody2D.velocity.y;
+
+        if (rigidbody2D.velocity.y < 0) this.yVelocity *= 1.01f;
+        rigidbody2D.velocity = new Vector2(this.xVelocity, this.yVelocity);
+    }
+
+    public virtual void HandleAnimation(PlayerMovement playerMovement)
+    {
+        if (!Global.FloatIsZero(xVelocity))
+        {
+            playerMovement.transform.localScale = new Vector2(Mathf.Sign(xVelocity), 1);
+        }
+    }
+
+    protected bool IsGrounded(PlayerMovement playerMovement)
+    {
+        CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size, 0f, Vector2.down, 1f, LayerMask.GetMask("GroundLayer"));
+
+        return true;
+        return raycastHit.collider != null;
+    }
+}
