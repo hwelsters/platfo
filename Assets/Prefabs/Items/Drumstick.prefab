@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 446948081841041748}
   - component: {fileID: 446948081841041749}
   - component: {fileID: 446948081841041747}
-  - component: {fileID: 4746338498090286029}
+  - component: {fileID: 7082759138657384959}
   m_Layer: 0
   m_Name: Drumstick
   m_TagString: Untagged
@@ -100,10 +100,10 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
-  m_Radius: 0.35
---- !u!114 &4746338498090286029
+  m_Radius: 0.2
+--- !u!114 &7082759138657384959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 446948081841041750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4441d94405ab1e4408ef30b082bc3ac2, type: 3}
+  m_Script: {fileID: 11500000, guid: 97a88cebc16446b49a66ac919a27274d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &446948082911208311

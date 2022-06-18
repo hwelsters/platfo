@@ -6,6 +6,7 @@ public class PlayerBaseState : PlayerState
     {
         Debug.Log("Entered Base State!");
         
+        // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         capsuleCollider2D.size = new Vector2(0.75f, 1f);
         capsuleCollider2D.offset = new Vector2(0f, 0f);

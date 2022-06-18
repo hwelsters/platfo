@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb2D;
 
     private PlayerState _playerState;
-    private bool _stateWasChanged;
+    private bool _stateWasChanged = true;
 
     public void Start()
     {

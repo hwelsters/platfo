@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4969983712677590206}
   - component: {fileID: 4969983712677590207}
-  - component: {fileID: 4969983712677590201}
+  - component: {fileID: 290033714621774994}
   - component: {fileID: 3974672471735843868}
   m_Layer: 0
   m_Name: Sausage
@@ -192,7 +192,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &4969983712677590201
+--- !u!58 &290033714621774994
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,9 +205,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
-  m_Radius: 0.35
+  m_Radius: 0.2
 --- !u!114 &3974672471735843868
 MonoBehaviour:
   m_ObjectHideFlags: 0

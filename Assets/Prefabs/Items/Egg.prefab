@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 389759367164728115}
   - component: {fileID: 389759367164728114}
-  - component: {fileID: 389759367164728116}
+  - component: {fileID: 7297443720930248748}
   - component: {fileID: 4793295971473676714}
   m_Layer: 0
   m_Name: Egg
@@ -192,7 +192,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &389759367164728116
+--- !u!58 &7297443720930248748
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,9 +205,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
-  m_Radius: 0.35
+  m_Radius: 0.2
 --- !u!114 &4793295971473676714
 MonoBehaviour:
   m_ObjectHideFlags: 0
