@@ -5,6 +5,9 @@ using UnityEngine;
 public class Item<T> : MonoBehaviour
     where T:PlayerState, new()
 {
+    public void OnEnable() { GameManager.itemsLeft++; }
+    public void OnDisable() { GameManager.itemsLeft--; }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

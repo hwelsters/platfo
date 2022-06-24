@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class PlayerState
 {
-    protected virtual float MOVE_SPEED { get { return 2f; } }
+    protected virtual float MOVE_SPEED { get { return 2.5f; } }
     protected virtual float JUMP_SPEED { get { return 5f; } }
 
     protected float xVelocity = 0f;
@@ -37,9 +37,8 @@ public abstract class PlayerState
     protected bool IsGrounded(PlayerMovement playerMovement)
     {
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size, 0f, Vector2.down, 1f, LayerMask.GetMask("GroundLayer"));
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size, 0f, Vector2.down, 0.25f, LayerMask.GetMask("GroundLayer"));
 
-        return true;
         return raycastHit.collider != null;
     }
 
