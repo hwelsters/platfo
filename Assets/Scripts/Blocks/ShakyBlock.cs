@@ -1,18 +1,57 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ShakyBlock : MonoBehaviour
+public class ShakyBlock : Block
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] 
+    private Sprite activatedSprite;
+
+    private SpriteRenderer spriteRenderer;
+    private Coroutine currentCoroutine;
+
+    private bool playerIsTouching = false;
+
+    private void Start()
     {
-        
+        this.spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void PlayerEnterAction(PlayerMovement playerMovement) 
     {
+        base.PlayerEnterAction(playerMovement);
+
+        this.playerIsTouching = true;
+        this.spriteRenderer.sprite = activatedSprite;
+
+        StartCoroutine(Shake());
+    }
+
+    protected override void PlayerExitAction(PlayerMovement playerMovement) 
+    {
+        base.PlayerExitAction(playerMovement);
         
+        if (this.currentCoroutine != null) StopCoroutine(this.currentCoroutine);
+        Destroy(gameObject);
+    }
+
+    private IEnumerator Shake()
+    {
+        const float shakeSpeed = 32.5f;
+        const float amplitude = 0.025f;
+
+        Vector2 originalPosition = transform.position;
+        float radians = 0;
+        float displacement = 0;
+
+        while (playerIsTouching)
+        {
+            radians += Time.deltaTime * shakeSpeed;
+            displacement = Mathf.Sin(radians) * amplitude;
+            transform.position = originalPosition + new Vector2(displacement, 0);
+            yield return null;
+        }
+
+        transform.position = originalPosition;
     }
 }

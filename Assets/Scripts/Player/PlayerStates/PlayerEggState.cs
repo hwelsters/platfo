@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerEggState : PlayerState
 {
+    protected override float JUMP_SPEED {get { return 0f; }}
+
     public override void HandleEnter(PlayerMovement playerMovement)
     {
         Debug.Log("Entered Egg State!");
@@ -9,7 +11,7 @@ public class PlayerEggState : PlayerState
         // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         capsuleCollider2D.size = new Vector2(0.9f, 0.9f);
-        capsuleCollider2D.offset = new Vector2(0f, 0f);
+        capsuleCollider2D.offset = new Vector2(0f, -0.05f);
         capsuleCollider2D.direction = CapsuleDirection2D.Vertical;
     }
 

@@ -1,15 +1,25 @@
 using UnityEngine;
 
-public abstract class Block : MonoBehaviour
+public class Block : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerMovement playerMovement = Global.GetScriptFromCollider<PlayerMovement>(other);
-            if (playerMovement != null) PlayerTouchAction(playerMovement);
-        }
+        PlayerMovement playerMovement = Global.GetScriptFromCollider<PlayerMovement>(other);
+        if (playerMovement != null) PlayerEnterAction(playerMovement);
     }
 
-    protected abstract void PlayerTouchAction(PlayerMovement playerMovement);
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        PlayerMovement playerMovement = Global.GetScriptFromCollider<PlayerMovement>(other);
+        if (playerMovement != null) PlayerExitAction(playerMovement);
+    }
+
+    protected virtual void PlayerEnterAction(PlayerMovement playerMovement)
+    {
+        Debug.Log("Player entered block");
+    }
+    protected virtual void PlayerExitAction(PlayerMovement playerMovement)
+    {
+        Debug.Log("Player exited block");
+    }
 }

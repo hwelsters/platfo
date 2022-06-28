@@ -46,4 +46,9 @@ public class PlayerMovement : MonoBehaviour
         this._playerState.HandleInput(this);
         this._playerState.HandleAnimation(this);
     }
+
+    public void OnWin()
+    {
+        this._playerState.OnWin();
+    }
 }
