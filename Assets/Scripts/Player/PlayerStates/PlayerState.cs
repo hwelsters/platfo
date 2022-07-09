@@ -24,10 +24,14 @@ public class PlayerState
         Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
 
         this.xVelocity = Input.GetAxisRaw("Horizontal") * this.MOVE_SPEED;
-        this.yVelocity = this.isGrounded && PressedJump() ? this.JUMP_SPEED : rigidbody2D.velocity.y;
+        this.yVelocity = this.isGrounded && PressedJump() ? this.JUMP_SPEED : -Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity);
 
         if (rigidbody2D.velocity.y < 0) this.yVelocity *= 1.01f;
-        rigidbody2D.velocity = new Vector2(this.xVelocity, this.yVelocity);
+        Vector2 gravityDirection = Physics2D.gravity.normalized;
+        rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this.xVelocity - gravityDirection * this.yVelocity; // new Vector2(this.xVelocity, this.yVelocity);
+
+        if (this.isGrounded) Debug.Log("Grounded");
+        else Debug.Log("Not grounded");
     }
 
     public virtual void HandleAnimation(PlayerMovement playerMovement)
@@ -45,8 +49,11 @@ public class PlayerState
 
     protected bool IsGrounded(PlayerMovement playerMovement)
     {
+        Debug.Log(Physics2D.gravity.normalized);
+
+        // UPDATED: Boxcast to cast in direction of gravity
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size - new Vector3(0.2f, 0, 0), 0f, Vector2.down, 0.01f, LayerMask.GetMask("GroundLayer"));
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size - new Vector3(0.2f, 0, 0), 0f, Physics2D.gravity.normalized, 0.2f, LayerMask.GetMask("GroundLayer"));
 
         return raycastHit.collider != null;
     }
