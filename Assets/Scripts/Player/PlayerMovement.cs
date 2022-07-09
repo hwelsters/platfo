@@ -51,4 +51,9 @@ public class PlayerMovement : MonoBehaviour
     {
         this._playerState.OnWin();
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }

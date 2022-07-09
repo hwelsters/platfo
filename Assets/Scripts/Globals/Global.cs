@@ -14,4 +14,9 @@ public class Global
     {
         return collider.GetComponent<T>();
     }
+
+    public static float ScalarProjection(Vector2 a, Vector2 b)
+    {
+        return (a.x * b.x + a.y * b.y) / b.magnitude;
+    }
 }

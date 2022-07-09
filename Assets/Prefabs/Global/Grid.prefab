@@ -304,6 +304,7 @@ GameObject:
   - component: {fileID: 57217990050698597}
   - component: {fileID: 57217990050698596}
   - component: {fileID: 57217990050698599}
+  - component: {fileID: 205017550839310829}
   m_Layer: 3
   m_Name: Spikes
   m_TagString: Untagged
@@ -513,6 +514,18 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &205017550839310829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57217990050698593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40bdde226152d5547902b720fc6ed0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3796028176640453039
 GameObject:
   m_ObjectHideFlags: 0
