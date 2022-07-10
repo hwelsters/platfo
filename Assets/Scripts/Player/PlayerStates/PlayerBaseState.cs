@@ -8,8 +8,8 @@ public class PlayerBaseState : PlayerState
         
         // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
-        capsuleCollider2D.size = new Vector2(0.75f, 1f);
-        capsuleCollider2D.offset = new Vector2(0f, 0);
+        capsuleCollider2D.size = new Vector2(0.75f, 0.95f);
+        capsuleCollider2D.offset = new Vector2(0f, -0.05f);
         capsuleCollider2D.direction = CapsuleDirection2D.Vertical;
     }
 

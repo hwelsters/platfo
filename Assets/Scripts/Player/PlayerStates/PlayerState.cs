@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerState
 {
+    protected virtual float FALL_MULTIPLIER { get { return 3f; }}
     protected virtual float MOVE_SPEED { get { return 2.5f; } }
     protected virtual float JUMP_SPEED { get { return 6f; } }
 
@@ -26,9 +27,11 @@ public class PlayerState
         this.xVelocity = Input.GetAxisRaw("Horizontal") * this.MOVE_SPEED;
         this.yVelocity = this.isGrounded && PressedJump() ? this.JUMP_SPEED : -Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity);
 
-        if (rigidbody2D.velocity.y < 0) this.yVelocity *= 1.01f;
+        // FOUND THE PROBLEM
+        if (Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) > 0) this.yVelocity += -Physics2D.gravity.magnitude * (FALL_MULTIPLIER - 1) * Time.deltaTime;
+        
         Vector2 gravityDirection = Physics2D.gravity.normalized;
-        rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this.xVelocity - gravityDirection * this.yVelocity; // new Vector2(this.xVelocity, this.yVelocity);
+        rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this.xVelocity - gravityDirection * this.yVelocity;
 
         if (this.isGrounded) Debug.Log("Grounded");
         else Debug.Log("Not grounded");
