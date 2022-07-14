@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerEggState : PlayerState
 {
-    protected override float JUMP_SPEED {get { return 0f; }}
+    protected override float JUMP_SPEED { get { return 0f; }}
 
     public override void HandleEnter(PlayerMovement playerMovement)
     {
