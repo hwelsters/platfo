@@ -21,9 +21,11 @@ public class Teleport : Block
     protected override void PlayerEnterAction(PlayerMovement playerMovement)
     {
         base.PlayerEnterAction(playerMovement);
+
         playerMovement.transform.position = newPosition;
         this.HandleGravity(playerMovement);
         this.HandlePlayerRotation(playerMovement);
+        this.ResetPlayerVelocity(playerMovement);
     }
 
     private void HandleGravity(PlayerMovement playerMovement)
@@ -49,5 +51,10 @@ public class Teleport : Block
     private void HandlePlayerRotation(PlayerMovement playerMovement)
     {
         playerMovement.transform.rotation = Quaternion.Euler(0, 0, (float) this.gravityDirection * 90f);
+    }
+
+    private void ResetPlayerVelocity(PlayerMovement playerMovement)
+    {
+        playerMovement.ResetVelocity();
     }
 }

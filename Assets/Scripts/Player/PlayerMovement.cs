@@ -56,4 +56,9 @@ public class PlayerMovement : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void ResetVelocity()
+    {
+        this._rb2D.velocity = new Vector2(0, 0);
+    }
 }

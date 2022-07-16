@@ -4,7 +4,7 @@ public class PlayerState
 {
     protected virtual float FALL_MULTIPLIER { get { return 3f; }}
     protected virtual float MOVE_SPEED { get { return 2.5f; } }
-    protected virtual float JUMP_SPEED { get { return 6f; } }
+    protected virtual float JUMP_SPEED { get { return 5.75f; } }
 
     protected float xVelocity = 0f;
     protected float yVelocity = 0f;
