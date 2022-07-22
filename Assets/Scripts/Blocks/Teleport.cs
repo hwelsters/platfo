@@ -51,6 +51,9 @@ public class Teleport : Block
     private void HandlePlayerRotation(PlayerMovement playerMovement)
     {
         playerMovement.transform.rotation = Quaternion.Euler(0, 0, (float) this.gravityDirection * 90f);
+
+        // Kinda confusing visually. I dunno if it's a good idea. Maybe make it a setting?
+        // GameManager.RotateSceneCamera((float) this.gravityDirection * 90f);
     }
 
     private void ResetPlayerVelocity(PlayerMovement playerMovement)

@@ -11,6 +11,9 @@ public class ShakyBlock : Block
     private Coroutine currentCoroutine;
 
     private bool playerIsTouching = false;
+    
+    // Repeated everywhere, how should I stop copy and pasting
+    private int playerCount = 0;
 
     private void Start()
     {
