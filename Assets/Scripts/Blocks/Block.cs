@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    private int playerCount = 0;
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerMovement playerMovement = Global.GetScriptFromCollider<PlayerMovement>(other);
@@ -12,7 +10,6 @@ public class Block : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        this.playerCount--;
         PlayerMovement playerMovement = Global.GetScriptFromCollider<PlayerMovement>(other);
         if (playerMovement != null) PlayerExitAction(playerMovement);
     }

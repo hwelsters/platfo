@@ -24,7 +24,9 @@ public class Eggship : Block
     {
         this.otherRb2D = playerMovement.GetComponent<Rigidbody2D>();
         this.direction *= -1f;
-        transform.localScale = new Vector2(this.direction.x, 1f);
+        
+        if (this.direction.x < float.Epsilon && this.direction.x > -float.Epsilon) transform.localScale = new Vector2(1f, 1f);
+        else transform.localScale = new Vector2(this.direction.x, 1f);
     }
 
     protected override void PlayerExitAction(PlayerMovement playerMovement)
