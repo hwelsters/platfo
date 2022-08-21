@@ -8,7 +8,7 @@ public class Blob : Block
     private BoxCollider2D boxCollider2D;
 
     // Repeated everywhere, how should I stop copy and pasting
-    private int playerCount = 0;
+    [SerializeField] private int playerCount = 0;
 
     private void Start()
     {

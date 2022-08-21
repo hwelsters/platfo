@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Eggship : Block
 {
-    private const float MOVE_SPEED = 0.5f;
+    private float MOVE_SPEED { get { return Linecast()? 0 : 0.5f; }}
 
     [SerializeField] private Vector2 direction;
+    [SerializeField] private BoxCollider2D boxCollider2D;
 
     private Rigidbody2D rb2D;
+
     // VERY TEMPORARY FIX
     private Rigidbody2D otherRb2D;
     private Vector2 lastPosition;
@@ -18,6 +20,7 @@ public class Eggship : Block
     private void Start()
     {
         this.rb2D = GetComponent<Rigidbody2D>();
+        this.boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     protected override void PlayerEnterAction(PlayerMovement playerMovement)
@@ -40,5 +43,25 @@ public class Eggship : Block
 
         if (this.otherRb2D != null) this.otherRb2D.velocity = this.currVelocity + this.otherRb2D.velocity;
         this.lastPosition = transform.position;
+    }
+
+    private bool Linecast()
+    {
+        Vector2 start = transform.position;
+
+        ChangeLayerMask("Default");
+        RaycastHit2D hit = Physics2D.Linecast(start, start + new Vector2(direction.x / 2, direction.y / 2), LayerMask.GetMask("GroundLayer"));
+        ChangeLayerMask("GroundLayer");
+        
+        this.boxCollider2D.enabled = true;
+
+        if (hit.collider != null) return true;
+        return false;
+    }
+
+    private void ChangeLayerMask(string layerName)
+    {
+        int layerInt = LayerMask.NameToLayer(layerName);
+        gameObject.layer = layerInt;
     }
 }

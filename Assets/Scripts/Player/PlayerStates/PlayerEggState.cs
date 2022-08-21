@@ -20,7 +20,7 @@ public class PlayerEggState : PlayerState
         base.HandleAnimation(playerMovement);
 
         Animator animator = playerMovement.Animator;
-        if (this.facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Idle_Left");
+        if (this._facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Idle_Left");
         else animator.Play("Birdegg_Idle_Right");
     }
 }

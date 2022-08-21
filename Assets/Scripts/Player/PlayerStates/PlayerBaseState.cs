@@ -18,7 +18,7 @@ public class PlayerBaseState : PlayerState
         base.HandleAnimation(playerMovement);
 
         Animator animator = playerMovement.Animator;
-        if (Global.FloatIsZero(this.xVelocity))
+        if (Global.FloatIsZero(this._xVelocity))
         {
             animator.Play("Birdman_Idle");
         }

@@ -14,6 +14,7 @@ public class Item<T> : MonoBehaviour
         {
             this.ChangePlayerState(other);
             this.DestroySelf();
+            other.transform.GetComponent<PlayerMovement>().Glow();
         }
     }
 

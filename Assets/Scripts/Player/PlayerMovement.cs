@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -16,11 +17,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private const float GLOW_SPEED = 5f;
+
     private Animator _animator;
     private CapsuleCollider2D _capsuleCollider2D;
     private Rigidbody2D _rb2D;
+    private Material _material;
 
     private PlayerState _playerState;
+    private Coroutine glowCoroutine;
     private bool _stateWasChanged = true;
 
     public void Start()
@@ -28,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         this._animator = GetComponent<Animator>();
         this._capsuleCollider2D = GetComponent<CapsuleCollider2D>();
         this._rb2D = GetComponent<Rigidbody2D>();
+        this._material = GetComponent<SpriteRenderer>().material;
 
         this._playerState = new PlayerBaseState();
 
@@ -60,5 +66,24 @@ public class PlayerMovement : MonoBehaviour
     public void ResetVelocity()
     {
         this._rb2D.velocity = new Vector2(0, 0);
+    }
+
+    public void Glow()
+    {
+        if (glowCoroutine != null) StopCoroutine(glowCoroutine);
+        glowCoroutine = StartCoroutine(GlowCoroutine());
+    }
+
+    private IEnumerator GlowCoroutine()
+    {
+        float currentRadian = 0f;
+        while (currentRadian < Mathf.PI)
+        {
+            float brightness = Mathf.Sin(currentRadian);
+            currentRadian += Time.deltaTime * GLOW_SPEED;
+            this._material.SetFloat("_GlowTime", brightness);
+            yield return null;
+        }
+        this._material.SetFloat("_GlowTime", 0f);
     }
 }

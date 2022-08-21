@@ -13,21 +13,13 @@ MonoBehaviour:
   m_Name: Lava
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 58825654, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -2018489690, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 661330630, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -300298845, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -216513711, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 1247225087, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -1402816973, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -2112107456, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -1024225355, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -1927385053, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 1695939850, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 467143360, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 60429494, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: 107758776, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
-  - {fileID: -2028520694, guid: 44a2fae61673fde429995aface6ab3a8, type: 3}
+  - {fileID: -259934914, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: -151180388, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: 801172706, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: -1009578611, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: 1894532177, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: -887017424, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
+  - {fileID: -449468001, guid: 1296f0bdf8ae3e444a5efe2771557ec0, type: 3}
   m_MinSpeed: 3
   m_MaxSpeed: 3
   m_AnimationStartTime: 0

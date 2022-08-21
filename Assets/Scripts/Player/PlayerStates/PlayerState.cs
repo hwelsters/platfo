@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class PlayerState
 {
-    protected virtual float FALL_MULTIPLIER { get { return 3f; }}
+    protected virtual float FALL_MULTIPLIER { get { return 1.5f; }}
     protected virtual float MOVE_SPEED { get { return 2.5f; } }
     protected virtual float JUMP_SPEED { get { return 5.75f; } }
 
-    protected float xVelocity = 0f;
-    protected float yVelocity = 0f;
+    protected float _xVelocity = 0f;
+    protected float _yVelocity = 0f;
 
-    protected FacingDirection facingDirection = FacingDirection.RIGHT;
+    protected FacingDirection _facingDirection = FacingDirection.RIGHT;
 
-    protected bool isGrounded = false;
+    protected bool _isGrounded = false;
 
     public virtual void HandleEnter(PlayerMovement playerMovement)
     {
@@ -20,31 +20,34 @@ public class PlayerState
 
     public virtual void HandleInput(PlayerMovement playerMovement)
     {
-        this.isGrounded = this.IsGrounded(playerMovement);
+        this._isGrounded = this.IsGrounded(playerMovement);
 
         Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
 
-        this.xVelocity = Input.GetAxisRaw("Horizontal") * this.MOVE_SPEED;
-        this.yVelocity = this.isGrounded && PressedJump() ? this.JUMP_SPEED : -Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity);
+        this._xVelocity = Input.GetAxisRaw("Horizontal") * this.MOVE_SPEED;
+        this._yVelocity = this._isGrounded && PressedJump() ? this.JUMP_SPEED : -Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity);
 
         // FOUND THE PROBLEM
-        if (Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) > 0) this.yVelocity += -Physics2D.gravity.magnitude * (FALL_MULTIPLIER - 1) * Time.deltaTime;
+        // if (Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) > 0) this._yVelocity += -Physics2D.gravity.magnitude * (FALL_MULTIPLIER - 1) * Time.deltaTime;
         
         Vector2 gravityDirection = Physics2D.gravity.normalized;
-        rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this.xVelocity - gravityDirection * this.yVelocity;
+        rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this._xVelocity - gravityDirection * this._yVelocity;
 
-        if (this.isGrounded) Debug.Log("Grounded");
+        if (this._isGrounded) 
+        {
+            Debug.Log("Grounded");
+        }
         else Debug.Log("Not grounded");
     }
 
     public virtual void HandleAnimation(PlayerMovement playerMovement)
     {
-        if (!Global.FloatIsZero(this.xVelocity))
+        if (!Global.FloatIsZero(this._xVelocity))
         {
-            playerMovement.transform.localScale = new Vector2(Mathf.Sign(this.xVelocity), 1);
+            playerMovement.transform.localScale = new Vector2(Mathf.Sign(this._xVelocity), 1);
 
-            if (this.xVelocity < 0) this.facingDirection = FacingDirection.LEFT;
-            else this.facingDirection = FacingDirection.RIGHT;
+            if (this._xVelocity < 0) this._facingDirection = FacingDirection.LEFT;
+            else this._facingDirection = FacingDirection.RIGHT;
         }
     }
 

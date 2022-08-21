@@ -14,6 +14,6 @@ public class PlayerSausageState : PlayerState
         
         // Only has to be done once
         Animator animator = playerMovement.Animator;
-        if (Global.FloatIsZero(this.xVelocity)) animator.Play("Birdsausage_Idle");
+        if (Global.FloatIsZero(this._xVelocity)) animator.Play("Birdsausage_Idle");
     }
 }
