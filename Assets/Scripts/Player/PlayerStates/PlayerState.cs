@@ -13,10 +13,7 @@ public class PlayerState
 
     protected bool _isGrounded = false;
 
-    public virtual void HandleEnter(PlayerMovement playerMovement)
-    {
-        GameManager.OnWin += OnWin;
-    }
+    public virtual void HandleEnter(PlayerMovement playerMovement) {}
 
     public virtual void HandleInput(PlayerMovement playerMovement)
     {
@@ -32,12 +29,6 @@ public class PlayerState
         
         Vector2 gravityDirection = Physics2D.gravity.normalized;
         rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this._xVelocity - gravityDirection * this._yVelocity;
-
-        if (this._isGrounded) 
-        {
-            Debug.Log("Grounded");
-        }
-        else Debug.Log("Not grounded");
     }
 
     public virtual void HandleAnimation(PlayerMovement playerMovement)
@@ -51,12 +42,15 @@ public class PlayerState
         }
     }
 
-    public virtual void OnWin() {}
+    public virtual void OnWin(PlayerMovement playerMovement) 
+    {
+        Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
+        rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y);
+        Debug.Log("PLAYER WON!"); 
+    }
 
     protected bool IsGrounded(PlayerMovement playerMovement)
     {
-        Debug.Log(Physics2D.gravity.normalized);
-
         // UPDATED: Boxcast to cast in direction of gravity
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         RaycastHit2D raycastHit = Physics2D.BoxCast(capsuleCollider2D.bounds.center, capsuleCollider2D.bounds.size - new Vector3(0.2f, 0, 0), 0f, Physics2D.gravity.normalized, 0.2f, LayerMask.GetMask("GroundLayer"));

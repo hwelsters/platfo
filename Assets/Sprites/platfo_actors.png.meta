@@ -646,7 +646,7 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 224
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -662,33 +662,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platfo_actors_27
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6b1fae8d8998504e929e5e3b1e609ff
-      internalID: -2143539655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: platfo_actors_28
       rect:
         serializedVersion: 2
         x: 192
         y: 224
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -699,27 +678,6 @@ TextureImporter:
       bones: []
       spriteID: 044acbacd345d7f4c800fe05cec61112
       internalID: -268712131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platfo_actors_29
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7436d447700bba44b5234a7d4dadacf
-      internalID: 122302369
       vertices: []
       indices: 
       edges: []

@@ -45,7 +45,6 @@ public class Teleport : Block
                 Physics2D.gravity = Vector2.right * Physics2D.gravity.magnitude;
                 break;
         }
-        Debug.Log(Physics2D.gravity);
     }
 
     private void HandlePlayerRotation(PlayerMovement playerMovement)

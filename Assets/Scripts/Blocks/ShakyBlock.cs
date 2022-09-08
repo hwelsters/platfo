@@ -22,8 +22,6 @@ public class ShakyBlock : Block
 
     protected override void PlayerEnterAction(PlayerMovement playerMovement) 
     {
-        base.PlayerEnterAction(playerMovement);
-
         this.playerIsTouching = true;
         this.spriteRenderer.sprite = activatedSprite;
 
@@ -32,8 +30,6 @@ public class ShakyBlock : Block
 
     protected override void PlayerExitAction(PlayerMovement playerMovement) 
     {
-        base.PlayerExitAction(playerMovement);
-        
         if (this.currentCoroutine != null) StopCoroutine(this.currentCoroutine);
         Destroy(gameObject);
     }

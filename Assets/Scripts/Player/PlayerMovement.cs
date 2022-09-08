@@ -27,9 +27,11 @@ public class PlayerMovement : MonoBehaviour
     private PlayerState _playerState;
     private Coroutine glowCoroutine;
     private bool _stateWasChanged = true;
+    private bool _isWinning = false;
 
     public void Start()
     {
+        // Get needed components
         this._animator = GetComponent<Animator>();
         this._capsuleCollider2D = GetComponent<CapsuleCollider2D>();
         this._rb2D = GetComponent<Rigidbody2D>();
@@ -39,6 +41,9 @@ public class PlayerMovement : MonoBehaviour
 
         // Configure Rigidbody2D
         this._rb2D.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+        // This is called whenever the player wins
+        GameManager.OnWin += OnWin;
     }
 
     public void Update()
@@ -49,13 +54,15 @@ public class PlayerMovement : MonoBehaviour
             this._stateWasChanged = false;
         }
 
+        if (this._isWinning) return;
         this._playerState.HandleInput(this);
         this._playerState.HandleAnimation(this);
     }
 
     public void OnWin()
     {
-        this._playerState.OnWin();
+        this._isWinning = true;
+        this._playerState.OnWin(this);
     }
 
     public void Die()

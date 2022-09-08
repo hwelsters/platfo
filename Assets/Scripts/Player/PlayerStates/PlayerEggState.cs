@@ -23,4 +23,13 @@ public class PlayerEggState : PlayerState
         if (this._facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Idle_Left");
         else animator.Play("Birdegg_Idle_Right");
     }
+
+    public override void OnWin(PlayerMovement playerMovement) 
+    {
+        base.OnWin(playerMovement);
+        Animator animator = playerMovement.Animator;
+
+        if (this._facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Celebrate_Left");
+        else animator.Play("Birdegg_Celebrate_Right");
+    }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Blob : Block
 {
-    [SerializeField] private GameObject blockToAppear;
-    private BoxCollider2D boxCollider2D;
+    [SerializeField] private GameObject _blockToAppear;
+    private BoxCollider2D _boxCollider2D;
 
     // Repeated everywhere, how should I stop copy and pasting
     [SerializeField] private int playerCount = 0;
 
     private void Start()
     {
-        this.boxCollider2D = GetComponent<BoxCollider2D>();
+        this._boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     protected override void PlayerEnterAction(PlayerMovement playerMovement)
@@ -36,12 +36,12 @@ public class Blob : Block
 
     private void MakeBlockAppear()
     {
-        blockToAppear.SetActive(true);
+        this._blockToAppear.SetActive(true);
     }
 
     private void ExpandBoxColliderSize()
     {
-        this.boxCollider2D.size = new Vector2(0.9f, 0.9f);
-        this.boxCollider2D.offset = new Vector2(0, 0);
+        this._boxCollider2D.size = new Vector2(0.9f, 0.9f);
+        this._boxCollider2D.offset = new Vector2(0, 0);
     }
 }

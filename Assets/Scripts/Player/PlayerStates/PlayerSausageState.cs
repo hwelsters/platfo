@@ -16,4 +16,11 @@ public class PlayerSausageState : PlayerState
         Animator animator = playerMovement.Animator;
         if (Global.FloatIsZero(this._xVelocity)) animator.Play("Birdsausage_Idle");
     }
+    
+    public override void OnWin(PlayerMovement playerMovement) 
+    {
+        base.OnWin(playerMovement);
+        Animator animator = playerMovement.Animator;
+        animator.Play("Birdsausage_Celebrate");
+    }
 }

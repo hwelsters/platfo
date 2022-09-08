@@ -5,22 +5,22 @@ using UnityEngine;
 public class Dripper : MonoBehaviour
 {
     private const float DELAY = 1f;
-    [SerializeField] private GameObject rainDrop;
+    [SerializeField] private GameObject _rainDrop;
 
-    private bool isDripping = false;
+    private bool _isDripping = false;
 
     private void Update()
     {
-        if (isDripping) return;
+        if (this._isDripping) return;
 
-        isDripping = true;
-        Instantiate(rainDrop, transform.position, Quaternion.identity);
+        this._isDripping = true;
+        Instantiate(this._rainDrop, transform.position, Quaternion.identity);
         StartCoroutine(Drip());
     }
 
     private IEnumerator Drip()
     {
         yield return new WaitForSeconds(DELAY);
-        isDripping = false;
+        this._isDripping = false;
     }
 }

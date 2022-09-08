@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     
     public static int itemsLeft = 0;
 
-
     public static void RotateSceneCamera(float degrees)
     {
         GameObject mainCamera = GameObject.FindGameObjectWithTag("MainCamera");

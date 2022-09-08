@@ -27,4 +27,11 @@ public class PlayerBaseState : PlayerState
             animator.Play("Birdman_Run");
         }
     }
+    
+    public override void OnWin(PlayerMovement playerMovement) 
+    {
+        base.OnWin(playerMovement);
+        Animator animator = playerMovement.Animator;
+        animator.Play("Birdman_Celebrate");
+    }
 }
