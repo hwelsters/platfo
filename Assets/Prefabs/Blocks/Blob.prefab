@@ -279,9 +279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5619f11f18e43004fb85294a4bc144b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockToAppear: {fileID: 440147995646444466}
-  innerBoxCollider: {fileID: 440147996300413700}
-  outerBoxCollider: {fileID: 0}
+  _blockToAppear: {fileID: 440147995646444466}
+  playerCount: 0
 --- !u!114 &8190779977579336390
 MonoBehaviour:
   m_ObjectHideFlags: 0

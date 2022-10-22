@@ -20,6 +20,7 @@ public class PlayerSausageState : PlayerState
     public override void OnWin(PlayerMovement playerMovement) 
     {
         base.OnWin(playerMovement);
+
         Animator animator = playerMovement.Animator;
         animator.Play("Birdsausage_Celebrate");
     }

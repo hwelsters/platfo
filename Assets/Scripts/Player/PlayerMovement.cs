@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
     private bool _stateWasChanged = true;
     private bool _isWinning = false;
 
+    private void OnEnable() { GameManager.OnWin += OnWin; }
+    private void OnDisable() { GameManager.OnWin -= OnWin; }
+
     public void Start()
     {
         // Get needed components
@@ -42,8 +45,6 @@ public class PlayerMovement : MonoBehaviour
         // Configure Rigidbody2D
         this._rb2D.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
 
-        // This is called whenever the player wins
-        GameManager.OnWin += OnWin;
     }
 
     public void Update()
@@ -53,8 +54,13 @@ public class PlayerMovement : MonoBehaviour
             this._playerState.HandleEnter(this);
             this._stateWasChanged = false;
         }
-
-        if (this._isWinning) return;
+        
+        if (this._isWinning) 
+        {
+            this._rb2D.velocity = new Vector2(0, this._rb2D.velocity.y);
+            return;
+        }
+        
         this._playerState.HandleInput(this);
         this._playerState.HandleAnimation(this);
     }

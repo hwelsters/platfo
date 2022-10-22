@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1933a8a46a89f1f4f96b37f6a51d904c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rainDrop: {fileID: 904607985350861756, guid: 48721558242af36418e68b863941e570, type: 3}
+  _rainDrop: {fileID: 904607985350861756, guid: 48721558242af36418e68b863941e570, type: 3}
 --- !u!212 &8267445605523814825
 SpriteRenderer:
   m_ObjectHideFlags: 0

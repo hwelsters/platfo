@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public delegate void OnWinHandler();
     public static event OnWinHandler OnWin;
     
-    public static int itemsLeft = 0;
+    public static int itemsLeft;
 
     public static void RotateSceneCamera(float degrees)
     {
@@ -33,5 +33,6 @@ public class GameManager : MonoBehaviour
     private void Reset()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        itemsLeft = 0;
     } 
 }
