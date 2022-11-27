@@ -26,6 +26,16 @@ public class MenuItem : MonoBehaviour
 
     public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0)) this.menuManager.SetSelectedIndex(this.index);
+        if (Input.GetMouseButton(0)) 
+        {
+            CursorManager.SetClicked();
+            this.menuManager.SetSelectedIndex(this.index);
+        }
+        else CursorManager.SetHand();
+    }
+
+    public void OnMouseExit()
+    {
+        CursorManager.SetArrow();
     }
 }

@@ -22,9 +22,6 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Won");
             if (OnWin != null) OnWin();
-
-            // REMOVE DURING PRODUCTION
-            itemsLeft--;
         }
 
         if (Input.GetKeyDown(KeyCode.R)) Reset();

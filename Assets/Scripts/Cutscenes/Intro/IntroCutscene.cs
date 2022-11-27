@@ -18,6 +18,7 @@ public class IntroCutscene : Cutscene
 {
     [SerializeField] protected List<Cut> scenes = new List<Cut>();
     [SerializeField] protected Image introImage;
+    [SerializeField] protected Image fadeImage;
     [SerializeField] protected TextMeshProUGUI introText;
     [SerializeField] protected string nextScene;
 
@@ -56,6 +57,16 @@ public class IntroCutscene : Cutscene
 
         if (textCoroutine != null) StopCoroutine(textCoroutine);
         textCoroutine = StartCoroutine(ShowText());
+    }
+
+    private void FadeToBlack()
+    {
+        
+    }
+
+    private IEnumerator FadeCoroutine ()
+    {
+        
     }
 
     private void ChangeScene()

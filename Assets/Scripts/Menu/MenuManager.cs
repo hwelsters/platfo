@@ -31,9 +31,6 @@ public class MenuManager : MonoBehaviour
 
     public void SetSelectedIndex(int nextIndex)
     {
-        Debug.Log("Called");
-        Debug.Log(nextIndex);
-
         this.selectedIndex = Mathf.Clamp(this.selectedIndex, 0, menuItems.Count - 1);
         nextIndex = Mathf.Clamp(nextIndex, 0, menuItems.Count - 1);
 
