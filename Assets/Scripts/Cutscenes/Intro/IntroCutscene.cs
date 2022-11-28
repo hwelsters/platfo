@@ -16,6 +16,7 @@ public struct Cut
 
 public class IntroCutscene : Cutscene
 {
+    private const float FADE_SPEED = 1f;
     [SerializeField] protected List<Cut> scenes = new List<Cut>();
     [SerializeField] protected Image introImage;
     [SerializeField] protected Image fadeImage;
@@ -27,7 +28,9 @@ public class IntroCutscene : Cutscene
     protected override void Start()
     {
         for(int i = 0; i < scenes.Count; i++) this.actions.Add(() => RunCut());
+        this.actions.Add(()=>FadeToBlack());
         this.actions.Add(()=>ChangeScene());
+
         base.Start();
     }
 
@@ -61,12 +64,19 @@ public class IntroCutscene : Cutscene
 
     private void FadeToBlack()
     {
-        
+        StartCoroutine(FadeCoroutine());
     }
 
     private IEnumerator FadeCoroutine ()
     {
-        
+        float alpha = 0f;
+        while (alpha < 2f)
+        {
+            alpha += Time.deltaTime * FADE_SPEED;
+            fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, alpha);
+            yield return null;
+        }
+        SetAutoProgress();
     }
 
     private void ChangeScene()

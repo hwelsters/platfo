@@ -8,6 +8,8 @@ public class Cutscene : MonoBehaviour
     protected bool stepComplete = true;
     protected int currentStep = 0;
 
+    private bool autoProgress = false;
+
     protected virtual void Start()
     {
         RunAction(actions[0]);
@@ -40,10 +42,25 @@ public class Cutscene : MonoBehaviour
     }
 
     public void ProgressThroughCutscene() {
-        if (IsProgressKeyPressed() && stepComplete) 
+        if (IsProgressKeyPressed() && stepComplete || GetAutoProgress()) 
         {
             currentStep = (int) Mathf.Clamp(currentStep + 1, 0, actions.Count - 1);
             RunAction(actions[currentStep]);
         }
+    }
+
+    protected bool GetAutoProgress()
+    {
+        if (autoProgress)
+        {
+            autoProgress = false;
+            return true;
+        }
+        return false;
+    }
+
+    protected void SetAutoProgress()
+    {
+        this.autoProgress = true;
     }
 }
