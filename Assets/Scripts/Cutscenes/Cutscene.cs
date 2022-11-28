@@ -8,6 +8,13 @@ public class Cutscene : MonoBehaviour
     protected bool stepComplete = true;
     protected int currentStep = 0;
 
+    private List<KeyCode> progressKeys = new List<KeyCode>() {
+        KeyCode.Space,
+        KeyCode.Return,
+        KeyCode.Z,
+        KeyCode.X
+    };
+
     private bool autoProgress = false;
 
     protected virtual void Start()
@@ -22,17 +29,20 @@ public class Cutscene : MonoBehaviour
 
     public bool IsProgressKeyPressed()
     {
-        return Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
+        int index = progressKeys.FindIndex(progressKey => Input.GetKeyDown(progressKey));
+        return index >= 0;
     }
 
     public bool IsProgressKey()
     {
-        return Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Return);
+        int index = progressKeys.FindIndex(progressKey => Input.GetKey(progressKey));
+        return index >= 0;
     }
 
     public bool IsProgressKeyUp()
     {
-        return Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.Return);
+        int index = progressKeys.FindIndex(progressKey => Input.GetKeyUp(progressKey));
+        return index >= 0;
     }
 
     public void RunAction(Action action)
