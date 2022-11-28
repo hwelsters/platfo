@@ -13,10 +13,15 @@ public struct Cut
     [TextArea] public string text;
 }
 
-
+// SOMEBODY TOUCHA MA SPAGHETT, THIS CODE IS SPAGHETT
 public class IntroCutscene : Cutscene
 {
-    private const float FADE_SPEED = 1f;
+    private const float FADE_DURATION = 2f;
+    private const float FADE_WAIT_DURATION = 1f;
+    private const float FADE_NUMBER_OF_STEPS = 5f;
+    private const float FADE_STEP_DURATION = FADE_DURATION / FADE_NUMBER_OF_STEPS;
+    private const float FADE_UPDATE_DURATION = 1f / FADE_NUMBER_OF_STEPS;
+
     [SerializeField] protected List<Cut> scenes = new List<Cut>();
     [SerializeField] protected Image introImage;
     [SerializeField] protected Image fadeImage;
@@ -67,14 +72,15 @@ public class IntroCutscene : Cutscene
         StartCoroutine(FadeCoroutine());
     }
 
+    // I want a chunky old school fade
     private IEnumerator FadeCoroutine ()
     {
         float alpha = 0f;
-        while (alpha < 2f)
+        while (alpha < FADE_DURATION + FADE_WAIT_DURATION)
         {
-            alpha += Time.deltaTime * FADE_SPEED;
+            alpha += FADE_UPDATE_DURATION;
             fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, alpha);
-            yield return null;
+            yield return new WaitForSeconds(FADE_STEP_DURATION);
         }
         SetAutoProgress();
     }

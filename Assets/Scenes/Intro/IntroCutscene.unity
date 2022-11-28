@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 360013733}
   - component: {fileID: 360013732}
   m_Layer: 5
-  m_Name: Image
+  m_Name: FadeImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,6 +391,7 @@ MonoBehaviour:
   - image: {fileID: 1432450723, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
     text: Then, Pepi dreamed about breakfast
   introImage: {fileID: 1998923872}
+  fadeImage: {fileID: 360013732}
   introText: {fileID: 2030725179}
   nextScene: Scenes/Intro/Menu
 --- !u!82 &677689503

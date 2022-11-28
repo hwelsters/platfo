@@ -32,6 +32,8 @@ public class PlayerBaseState : PlayerState
     {
         base.OnWin(playerMovement);
         Animator animator = playerMovement.Animator;
-        animator.Play("Birdman_Celebrate");
+
+        bool isAlreadyCelebrating = animator.GetCurrentAnimatorStateInfo(0).IsName("Birdman_Celebrate_Loop");
+        if (!isAlreadyCelebrating) animator.Play("Birdman_Celebrate");
     }
 }
