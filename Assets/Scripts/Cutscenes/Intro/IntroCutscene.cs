@@ -54,7 +54,6 @@ public class IntroCutscene : Cutscene
         }
 
         introText.text = this.scenes[currentStep].text;
-        while (!IsProgressKeyUp()) yield return null;
 
         this.stepComplete = true;
     }

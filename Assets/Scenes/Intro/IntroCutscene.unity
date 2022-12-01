@@ -375,21 +375,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenes:
   - image: {fileID: 2066025205, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: Pepi was alone, in their bedroom.
+    text: Pepi sat alone in their bedroom.
   - image: {fileID: 546484851, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: From their bed, they had the thought that the moon looked like an egg yolk,
-      yellow and round.
+    text: From their bed, the moon looked like an egg yolk, round and yellow.
   - image: {fileID: 112887773, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
     text: Then, Pepi thought about breakfast.
   - image: {fileID: 112887773, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: '"I can''t wait for breakfast," they thought'
+    text: '"I can''t wait for breakfast"'
   - image: {fileID: 112887773, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: '"I''m hungry even though I just ate a few minutes ago"'
+    text: '"I''m hungry even though I just ate"'
   - image: {fileID: 1376529751, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: With thoughts of delicious meals in their head, Pepi dozed off to a deep
-      slumber
+    text: With thoughts of delicious meals, Pepi dozed off into a deep slumber
   - image: {fileID: 1432450723, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
-    text: Then, Pepi dreamed about breakfast
+    text: ...And Pepi dreamed about breakfast
   introImage: {fileID: 1998923872}
   fadeImage: {fileID: 360013732}
   introText: {fileID: 2030725179}
