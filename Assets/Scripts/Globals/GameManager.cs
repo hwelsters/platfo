@@ -16,6 +16,11 @@ public class GameManager : MonoBehaviour
         mainCamera.transform.rotation = Quaternion.Euler(0, 0, degrees);
     }
 
+    // private IEnumerator RotateCamera(float degrees)
+    // {
+
+    // }
+
     private void Update()
     {
         if (itemsLeft == 0) 

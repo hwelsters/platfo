@@ -12,44 +12,39 @@ public class Teleport : Block
         LEFT,
     };
 
-    [SerializeField]
-    private Vector2 newPosition;
-
-    [SerializeField]
-    private Direction gravityDirection;
+    [SerializeField] private Vector2 newPosition;
+    [SerializeField] private Direction gravityDirection;
+    [SerializeField] private Direction currentGravityDirection;
 
     protected override void PlayerEnterAction(PlayerMovement playerMovement)
     {
         base.PlayerEnterAction(playerMovement);
 
         playerMovement.transform.position = newPosition;
-        this.HandleGravity(playerMovement);
+        
+        // THE ORDER MATTERS WHICH IS KINDA ASS SMH
         this.HandlePlayerRotation(playerMovement);
+        this.HandleGravity(playerMovement);
         this.ResetPlayerVelocity(playerMovement);
     }
 
     private void HandleGravity(PlayerMovement playerMovement)
     {
-        switch (this.gravityDirection)
-        {
-            case Direction.DOWN:
-                Physics2D.gravity = Vector2.down * Physics2D.gravity.magnitude;
-                break;
-            case Direction.UP:
-                Physics2D.gravity = Vector2.up * Physics2D.gravity.magnitude;
-                break;
-            case Direction.LEFT:
-                Physics2D.gravity = Vector2.left * Physics2D.gravity.magnitude;
-                break;
-            case Direction.RIGHT:
-                Physics2D.gravity = Vector2.right * Physics2D.gravity.magnitude;
-                break;
-        }
+        Physics2D.gravity = (playerMovement.transform.rotation * Vector2.down) * Physics2D.gravity.magnitude;
     }
 
     private void HandlePlayerRotation(PlayerMovement playerMovement)
     {
-        playerMovement.transform.rotation = Quaternion.Euler(0, 0, (float) this.gravityDirection * 90f);
+        // Get difference between two quaternions
+        Quaternion playerRotation = playerMovement.transform.rotation;
+        Quaternion currentGravityDirection = Quaternion.Euler(0, 0, (float) this.currentGravityDirection * 90f);
+
+        Debug.Log("PLAYER ROTATION: " + playerRotation);
+        Debug.Log("GRAVITY ROTATION: " + currentGravityDirection);
+
+        Quaternion difference = playerRotation * Quaternion.Inverse(currentGravityDirection);
+        // float difference = 0;
+        playerMovement.transform.rotation = Quaternion.Euler(0, 0, (float) this.gravityDirection * 90f) * difference;
 
         // Kinda confusing visually. I dunno if it's a good idea. Maybe make it a setting?
         // GameManager.RotateSceneCamera((float) this.gravityDirection * 90f);
