@@ -47,7 +47,7 @@ public class Teleport : Block
         playerMovement.transform.rotation = Quaternion.Euler(0, 0, (float) this.gravityDirection * 90f) * difference;
 
         // Kinda confusing visually. I dunno if it's a good idea. Maybe make it a setting?
-        // GameManager.RotateSceneCamera((float) this.gravityDirection * 90f);
+        GameManager.instance.RotateSceneCamera(playerMovement.transform.rotation.eulerAngles.z);
     }
 
     private void ResetPlayerVelocity(PlayerMovement playerMovement)

@@ -44,9 +44,10 @@ public class PlayerState
 
     public virtual void OnWin(PlayerMovement playerMovement) 
     {
-        Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
-        rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y);
-        Debug.Log("PLAYER WON!"); 
+        // Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
+        // Vector2 gravityDirectionVector = Vector2.ClampMagnitude(Physics2D.gravity, 1.0f);
+        // rigidbody2D.velocity = Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) * gravityDirectionVector;
+        // Debug.Log("PLAYER WON!"); 
     }
 
     protected bool IsGrounded(PlayerMovement playerMovement)
