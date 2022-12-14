@@ -11,4 +11,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro/Menu.unity
     guid: 43d708fdf33755048aaa47dcb908ea1e
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_BackTrack.unity
+    guid: 0b9f4c4e0322b7d478906599e267171a
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Gravity.unity
+    guid: 1f889b3286719fd4ea40e866047cd501
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_LeftRight.unity
+    guid: 6528dc44dd1db5143ada9dac5d2087fa
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Perpetual.unity
+    guid: 2d042488e23c46840bea28823b711cc7
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Pipe_Tutorial.unity
+    guid: 55eb41a0d4eeb6349b1be987d2701dbd
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_PipeFlip.unity
+    guid: ed6f50e3b24a9b04bafa2d37c5a78098
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Repeat.unity
+    guid: 16732fe9b67b2bb4cb2c5682c938180d
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_SausagePrimer.unity
+    guid: b2a117c4d9ce5fe4e9d19c3b14d003bf
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_ShakyBlocks.unity
+    guid: b56afc6de95f74c49a9d874df400bc91
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_ShakyBlocks2.unity
+    guid: eb310a7e6cd148843b1863c4f065f0a4
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_ShakyDig.unity
+    guid: fc0aa44176b86784a894da2833b1296a
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_ShakyJump.unity
+    guid: c2ee4290046d34a4cbacfd7b4d15aa0e
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_ShakyTutorial.unity
+    guid: c7199c54dd9ecdc47857e0db5d260735
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Squakson.unity
+    guid: daaaf884f62452e4b9d0fb75f78c01bf
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_TrappedSausage.unity
+    guid: 01c42ec1caa450c44aae3b7194dc3a40
+  - enabled: 1
+    path: Assets/Scenes/Base/Base_Tutorial.unity
+    guid: 57d58f99f72248c42b60bf6a7a6779ee
   m_configObjects: {}

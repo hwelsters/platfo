@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,11 +120,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
-        width: 16
-        height: 16
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: platfo_tiles_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 240
-        width: 16
-        height: 16
+        x: 32
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: platfo_tiles_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 240
-        width: 16
-        height: 16
+        x: 64
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: platfo_tiles_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 240
-        width: 16
-        height: 16
+        x: 96
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: platfo_tiles_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 240
-        width: 16
-        height: 16
+        x: 128
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: platfo_tiles_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 240
-        width: 16
-        height: 16
+        x: 160
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: platfo_tiles_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 240
-        width: 16
-        height: 16
+        x: 192
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: platfo_tiles_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 240
-        width: 16
-        height: 16
+        x: 224
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: platfo_tiles_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 240
-        width: 16
-        height: 16
+        x: 256
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: platfo_tiles_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 240
-        width: 16
-        height: 16
+        x: 288
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: platfo_tiles_10
       rect:
         serializedVersion: 2
-        x: 160
-        y: 240
-        width: 16
-        height: 16
+        x: 320
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: platfo_tiles_11
       rect:
         serializedVersion: 2
-        x: 176
-        y: 240
-        width: 16
-        height: 16
+        x: 352
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: platfo_tiles_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 240
-        width: 16
-        height: 16
+        x: 384
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: platfo_tiles_13
       rect:
         serializedVersion: 2
-        x: 208
-        y: 240
-        width: 16
-        height: 16
+        x: 416
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: platfo_tiles_14
       rect:
         serializedVersion: 2
-        x: 224
-        y: 240
-        width: 16
-        height: 16
+        x: 448
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: platfo_tiles_15
       rect:
         serializedVersion: 2
-        x: 240
-        y: 240
-        width: 16
-        height: 16
+        x: 480
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,11 +456,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 16
-        height: 16
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -476,12 +476,12 @@ TextureImporter:
       name: platfo_tiles_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 224
-        width: 16
-        height: 16
+        x: 32
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: platfo_tiles_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
-        width: 16
-        height: 16
+        x: 64
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: platfo_tiles_19
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 16
-        height: 16
+        x: 96
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: platfo_tiles_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 16
-        height: 16
+        x: 128
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -560,12 +560,12 @@ TextureImporter:
       name: platfo_tiles_21
       rect:
         serializedVersion: 2
-        x: 80
-        y: 224
-        width: 16
-        height: 16
+        x: 160
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: platfo_tiles_22
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
-        width: 16
-        height: 16
+        x: 192
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -602,12 +602,12 @@ TextureImporter:
       name: platfo_tiles_23
       rect:
         serializedVersion: 2
-        x: 112
-        y: 224
-        width: 16
-        height: 16
+        x: 224
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -623,12 +623,12 @@ TextureImporter:
       name: platfo_tiles_24
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 16
-        height: 16
+        x: 256
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -644,12 +644,12 @@ TextureImporter:
       name: platfo_tiles_25
       rect:
         serializedVersion: 2
-        x: 144
-        y: 224
-        width: 16
-        height: 16
+        x: 288
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -665,12 +665,12 @@ TextureImporter:
       name: platfo_tiles_26
       rect:
         serializedVersion: 2
-        x: 160
-        y: 224
-        width: 16
-        height: 16
+        x: 320
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -686,12 +686,12 @@ TextureImporter:
       name: platfo_tiles_27
       rect:
         serializedVersion: 2
-        x: 176
-        y: 224
-        width: 16
-        height: 16
+        x: 352
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -707,12 +707,12 @@ TextureImporter:
       name: platfo_tiles_28
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 16
-        height: 16
+        x: 384
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -728,12 +728,12 @@ TextureImporter:
       name: platfo_tiles_29
       rect:
         serializedVersion: 2
-        x: 208
-        y: 224
-        width: 16
-        height: 16
+        x: 416
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -749,12 +749,12 @@ TextureImporter:
       name: platfo_tiles_30
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 16
-        height: 16
+        x: 448
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -770,12 +770,12 @@ TextureImporter:
       name: platfo_tiles_31
       rect:
         serializedVersion: 2
-        x: 240
-        y: 224
-        width: 16
-        height: 16
+        x: 480
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -792,11 +792,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 208
-        width: 16
-        height: 16
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -812,12 +812,12 @@ TextureImporter:
       name: platfo_tiles_33
       rect:
         serializedVersion: 2
-        x: 16
-        y: 208
-        width: 16
-        height: 16
+        x: 32
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -838,12 +838,12 @@ TextureImporter:
       name: platfo_tiles_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
-        width: 16
-        height: 16
+        x: 64
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -859,12 +859,12 @@ TextureImporter:
       name: platfo_tiles_35
       rect:
         serializedVersion: 2
-        x: 48
-        y: 208
-        width: 16
-        height: 16
+        x: 96
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -880,12 +880,12 @@ TextureImporter:
       name: platfo_tiles_36
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
-        width: 16
-        height: 16
+        x: 128
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -901,12 +901,12 @@ TextureImporter:
       name: platfo_tiles_37
       rect:
         serializedVersion: 2
-        x: 80
-        y: 208
-        width: 16
-        height: 16
+        x: 160
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -922,12 +922,12 @@ TextureImporter:
       name: platfo_tiles_38
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
-        width: 16
-        height: 16
+        x: 192
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -943,12 +943,12 @@ TextureImporter:
       name: platfo_tiles_39
       rect:
         serializedVersion: 2
-        x: 112
-        y: 208
-        width: 16
-        height: 16
+        x: 224
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: platfo_tiles_40
       rect:
         serializedVersion: 2
-        x: 128
-        y: 208
-        width: 16
-        height: 16
+        x: 256
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -985,12 +985,12 @@ TextureImporter:
       name: platfo_tiles_41
       rect:
         serializedVersion: 2
-        x: 144
-        y: 208
-        width: 16
-        height: 16
+        x: 288
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1006,12 +1006,12 @@ TextureImporter:
       name: platfo_tiles_42
       rect:
         serializedVersion: 2
-        x: 160
-        y: 208
-        width: 16
-        height: 16
+        x: 320
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1027,12 +1027,12 @@ TextureImporter:
       name: platfo_tiles_43
       rect:
         serializedVersion: 2
-        x: 176
-        y: 208
-        width: 16
-        height: 16
+        x: 352
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1048,12 +1048,12 @@ TextureImporter:
       name: platfo_tiles_44
       rect:
         serializedVersion: 2
-        x: 192
-        y: 208
-        width: 16
-        height: 16
+        x: 384
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1069,12 +1069,12 @@ TextureImporter:
       name: platfo_tiles_45
       rect:
         serializedVersion: 2
-        x: 208
-        y: 208
-        width: 16
-        height: 16
+        x: 416
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1090,12 +1090,12 @@ TextureImporter:
       name: platfo_tiles_46
       rect:
         serializedVersion: 2
-        x: 224
-        y: 208
-        width: 16
-        height: 16
+        x: 448
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: platfo_tiles_47
       rect:
         serializedVersion: 2
-        x: 240
-        y: 208
-        width: 16
-        height: 16
+        x: 480
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1133,11 +1133,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 16
-        height: 16
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1153,12 +1153,12 @@ TextureImporter:
       name: platfo_tiles_49
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
-        width: 16
-        height: 16
+        x: 32
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1174,12 +1174,12 @@ TextureImporter:
       name: platfo_tiles_50
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
-        width: 16
-        height: 16
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1195,12 +1195,12 @@ TextureImporter:
       name: platfo_tiles_51
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
-        width: 16
-        height: 16
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1216,12 +1216,12 @@ TextureImporter:
       name: platfo_tiles_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 16
-        height: 16
+        x: 128
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1237,12 +1237,12 @@ TextureImporter:
       name: platfo_tiles_53
       rect:
         serializedVersion: 2
-        x: 80
-        y: 192
-        width: 16
-        height: 16
+        x: 160
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1258,12 +1258,12 @@ TextureImporter:
       name: platfo_tiles_54
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 16
-        height: 16
+        x: 192
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1279,12 +1279,12 @@ TextureImporter:
       name: platfo_tiles_55
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
-        height: 16
+        x: 224
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1300,12 +1300,12 @@ TextureImporter:
       name: platfo_tiles_56
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 16
-        height: 16
+        x: 256
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1321,12 +1321,12 @@ TextureImporter:
       name: platfo_tiles_57
       rect:
         serializedVersion: 2
-        x: 144
-        y: 192
-        width: 16
-        height: 16
+        x: 288
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1342,12 +1342,12 @@ TextureImporter:
       name: platfo_tiles_58
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 16
-        height: 16
+        x: 320
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1363,12 +1363,12 @@ TextureImporter:
       name: platfo_tiles_59
       rect:
         serializedVersion: 2
-        x: 176
-        y: 192
-        width: 16
-        height: 16
+        x: 352
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1384,12 +1384,12 @@ TextureImporter:
       name: platfo_tiles_60
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 16
-        height: 16
+        x: 384
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1405,12 +1405,12 @@ TextureImporter:
       name: platfo_tiles_61
       rect:
         serializedVersion: 2
-        x: 208
-        y: 192
-        width: 16
-        height: 16
+        x: 416
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1426,12 +1426,12 @@ TextureImporter:
       name: platfo_tiles_62
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
-        width: 16
-        height: 16
+        x: 448
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1447,12 +1447,12 @@ TextureImporter:
       name: platfo_tiles_63
       rect:
         serializedVersion: 2
-        x: 240
-        y: 192
-        width: 16
-        height: 16
+        x: 480
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1469,11 +1469,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 176
-        width: 16
-        height: 16
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1489,12 +1489,12 @@ TextureImporter:
       name: platfo_tiles_65
       rect:
         serializedVersion: 2
-        x: 16
-        y: 176
-        width: 16
-        height: 16
+        x: 32
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1510,12 +1510,12 @@ TextureImporter:
       name: platfo_tiles_66
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
-        height: 16
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1531,12 +1531,12 @@ TextureImporter:
       name: platfo_tiles_67
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
-        height: 16
+        x: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1552,12 +1552,12 @@ TextureImporter:
       name: platfo_tiles_68
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
-        height: 16
+        x: 128
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1573,12 +1573,12 @@ TextureImporter:
       name: platfo_tiles_69
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
-        height: 16
+        x: 160
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1594,12 +1594,12 @@ TextureImporter:
       name: platfo_tiles_70
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
-        width: 16
-        height: 16
+        x: 192
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1615,12 +1615,12 @@ TextureImporter:
       name: platfo_tiles_71
       rect:
         serializedVersion: 2
-        x: 112
-        y: 176
-        width: 16
-        height: 16
+        x: 224
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1636,12 +1636,12 @@ TextureImporter:
       name: platfo_tiles_72
       rect:
         serializedVersion: 2
-        x: 128
-        y: 176
-        width: 16
-        height: 16
+        x: 256
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1657,12 +1657,12 @@ TextureImporter:
       name: platfo_tiles_73
       rect:
         serializedVersion: 2
-        x: 144
-        y: 176
-        width: 16
-        height: 16
+        x: 288
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1678,12 +1678,12 @@ TextureImporter:
       name: platfo_tiles_74
       rect:
         serializedVersion: 2
-        x: 160
-        y: 176
-        width: 16
-        height: 16
+        x: 320
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1699,12 +1699,12 @@ TextureImporter:
       name: platfo_tiles_75
       rect:
         serializedVersion: 2
-        x: 176
-        y: 176
-        width: 16
-        height: 16
+        x: 352
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1720,12 +1720,12 @@ TextureImporter:
       name: platfo_tiles_76
       rect:
         serializedVersion: 2
-        x: 192
-        y: 176
-        width: 16
-        height: 16
+        x: 384
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1741,12 +1741,12 @@ TextureImporter:
       name: platfo_tiles_77
       rect:
         serializedVersion: 2
-        x: 208
-        y: 176
-        width: 16
-        height: 16
+        x: 416
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1762,12 +1762,12 @@ TextureImporter:
       name: platfo_tiles_78
       rect:
         serializedVersion: 2
-        x: 224
-        y: 176
-        width: 16
-        height: 16
+        x: 448
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1783,12 +1783,12 @@ TextureImporter:
       name: platfo_tiles_79
       rect:
         serializedVersion: 2
-        x: 240
-        y: 176
-        width: 16
-        height: 16
+        x: 480
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1805,11 +1805,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 16
-        height: 16
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1825,12 +1825,12 @@ TextureImporter:
       name: platfo_tiles_81
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
-        width: 16
-        height: 16
+        x: 32
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1846,12 +1846,12 @@ TextureImporter:
       name: platfo_tiles_82
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 16
-        height: 16
+        x: 64
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1867,12 +1867,12 @@ TextureImporter:
       name: platfo_tiles_83
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 16
-        height: 16
+        x: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1888,12 +1888,12 @@ TextureImporter:
       name: platfo_tiles_84
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 16
-        height: 16
+        x: 128
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1909,12 +1909,12 @@ TextureImporter:
       name: platfo_tiles_85
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
-        height: 16
+        x: 160
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1930,12 +1930,12 @@ TextureImporter:
       name: platfo_tiles_86
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 16
-        height: 16
+        x: 192
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1951,12 +1951,12 @@ TextureImporter:
       name: platfo_tiles_87
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
-        width: 16
-        height: 16
+        x: 224
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1972,12 +1972,12 @@ TextureImporter:
       name: platfo_tiles_88
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 16
-        height: 16
+        x: 256
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -2005,12 +2005,12 @@ TextureImporter:
       name: platfo_tiles_89
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
-        width: 16
-        height: 16
+        x: 288
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2026,12 +2026,12 @@ TextureImporter:
       name: platfo_tiles_90
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 16
-        height: 16
+        x: 320
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2047,12 +2047,12 @@ TextureImporter:
       name: platfo_tiles_91
       rect:
         serializedVersion: 2
-        x: 176
-        y: 160
-        width: 16
-        height: 16
+        x: 352
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2068,12 +2068,12 @@ TextureImporter:
       name: platfo_tiles_92
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 16
-        height: 16
+        x: 384
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2089,12 +2089,12 @@ TextureImporter:
       name: platfo_tiles_93
       rect:
         serializedVersion: 2
-        x: 208
-        y: 160
-        width: 16
-        height: 16
+        x: 416
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2110,12 +2110,12 @@ TextureImporter:
       name: platfo_tiles_94
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
-        width: 16
-        height: 16
+        x: 448
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2131,12 +2131,12 @@ TextureImporter:
       name: platfo_tiles_95
       rect:
         serializedVersion: 2
-        x: 240
-        y: 160
-        width: 16
-        height: 16
+        x: 480
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2153,11 +2153,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
-        width: 16
-        height: 16
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2173,12 +2173,12 @@ TextureImporter:
       name: platfo_tiles_97
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
-        width: 16
-        height: 16
+        x: 32
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2194,12 +2194,12 @@ TextureImporter:
       name: platfo_tiles_98
       rect:
         serializedVersion: 2
-        x: 32
-        y: 144
-        width: 16
-        height: 16
+        x: 64
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2215,12 +2215,12 @@ TextureImporter:
       name: platfo_tiles_99
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
-        width: 16
-        height: 16
+        x: 96
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2236,12 +2236,12 @@ TextureImporter:
       name: platfo_tiles_100
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 16
-        height: 16
+        x: 128
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2257,12 +2257,12 @@ TextureImporter:
       name: platfo_tiles_101
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
-        width: 16
-        height: 16
+        x: 160
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2278,12 +2278,12 @@ TextureImporter:
       name: platfo_tiles_102
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
-        width: 16
-        height: 16
+        x: 192
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2299,12 +2299,12 @@ TextureImporter:
       name: platfo_tiles_103
       rect:
         serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
+        x: 224
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2320,12 +2320,12 @@ TextureImporter:
       name: platfo_tiles_104
       rect:
         serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
+        x: 256
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2341,12 +2341,12 @@ TextureImporter:
       name: platfo_tiles_105
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
-        width: 16
-        height: 16
+        x: 288
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2362,12 +2362,12 @@ TextureImporter:
       name: platfo_tiles_106
       rect:
         serializedVersion: 2
-        x: 160
-        y: 144
-        width: 16
-        height: 16
+        x: 320
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2383,12 +2383,12 @@ TextureImporter:
       name: platfo_tiles_107
       rect:
         serializedVersion: 2
-        x: 176
-        y: 144
-        width: 16
-        height: 16
+        x: 352
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2404,12 +2404,12 @@ TextureImporter:
       name: platfo_tiles_108
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
-        width: 16
-        height: 16
+        x: 384
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2425,12 +2425,12 @@ TextureImporter:
       name: platfo_tiles_109
       rect:
         serializedVersion: 2
-        x: 208
-        y: 144
-        width: 16
-        height: 16
+        x: 416
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2446,12 +2446,12 @@ TextureImporter:
       name: platfo_tiles_110
       rect:
         serializedVersion: 2
-        x: 224
-        y: 144
-        width: 16
-        height: 16
+        x: 448
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2467,12 +2467,12 @@ TextureImporter:
       name: platfo_tiles_111
       rect:
         serializedVersion: 2
-        x: 240
-        y: 144
-        width: 16
-        height: 16
+        x: 480
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2489,11 +2489,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 16
-        height: 16
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2509,12 +2509,12 @@ TextureImporter:
       name: platfo_tiles_113
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 16
+        x: 32
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2530,12 +2530,12 @@ TextureImporter:
       name: platfo_tiles_114
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2551,12 +2551,12 @@ TextureImporter:
       name: platfo_tiles_115
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 16
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2572,12 +2572,12 @@ TextureImporter:
       name: platfo_tiles_116
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2593,12 +2593,12 @@ TextureImporter:
       name: platfo_tiles_117
       rect:
         serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
+        x: 160
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2614,12 +2614,12 @@ TextureImporter:
       name: platfo_tiles_118
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 16
-        height: 16
+        x: 192
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2635,12 +2635,12 @@ TextureImporter:
       name: platfo_tiles_119
       rect:
         serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
-        height: 16
+        x: 224
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2656,12 +2656,12 @@ TextureImporter:
       name: platfo_tiles_120
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 16
-        height: 16
+        x: 256
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2677,12 +2677,12 @@ TextureImporter:
       name: platfo_tiles_121
       rect:
         serializedVersion: 2
-        x: 144
-        y: 128
-        width: 16
-        height: 16
+        x: 288
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2698,12 +2698,12 @@ TextureImporter:
       name: platfo_tiles_122
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
-        width: 16
-        height: 16
+        x: 320
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2719,12 +2719,12 @@ TextureImporter:
       name: platfo_tiles_123
       rect:
         serializedVersion: 2
-        x: 176
-        y: 128
-        width: 16
-        height: 16
+        x: 352
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2740,12 +2740,12 @@ TextureImporter:
       name: platfo_tiles_124
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 16
-        height: 16
+        x: 384
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2761,12 +2761,12 @@ TextureImporter:
       name: platfo_tiles_125
       rect:
         serializedVersion: 2
-        x: 208
-        y: 128
-        width: 16
-        height: 16
+        x: 416
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2782,12 +2782,12 @@ TextureImporter:
       name: platfo_tiles_126
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
-        width: 16
-        height: 16
+        x: 448
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2803,12 +2803,12 @@ TextureImporter:
       name: platfo_tiles_127
       rect:
         serializedVersion: 2
-        x: 240
-        y: 128
-        width: 16
-        height: 16
+        x: 480
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2825,11 +2825,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 16
-        height: 16
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2845,12 +2845,12 @@ TextureImporter:
       name: platfo_tiles_129
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 16
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2866,12 +2866,12 @@ TextureImporter:
       name: platfo_tiles_130
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 16
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2887,12 +2887,12 @@ TextureImporter:
       name: platfo_tiles_131
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 16
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2908,12 +2908,12 @@ TextureImporter:
       name: platfo_tiles_132
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 16
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2929,12 +2929,12 @@ TextureImporter:
       name: platfo_tiles_133
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 16
-        height: 16
+        x: 160
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2950,12 +2950,12 @@ TextureImporter:
       name: platfo_tiles_134
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
-        width: 16
-        height: 16
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2971,12 +2971,12 @@ TextureImporter:
       name: platfo_tiles_135
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
-        height: 16
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2992,12 +2992,12 @@ TextureImporter:
       name: platfo_tiles_136
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3013,12 +3013,12 @@ TextureImporter:
       name: platfo_tiles_137
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
-        width: 16
-        height: 16
+        x: 288
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3034,12 +3034,12 @@ TextureImporter:
       name: platfo_tiles_138
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
-        width: 16
-        height: 16
+        x: 320
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3055,12 +3055,12 @@ TextureImporter:
       name: platfo_tiles_139
       rect:
         serializedVersion: 2
-        x: 176
-        y: 112
-        width: 16
-        height: 16
+        x: 352
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3076,12 +3076,12 @@ TextureImporter:
       name: platfo_tiles_140
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
-        width: 16
-        height: 16
+        x: 384
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3097,12 +3097,12 @@ TextureImporter:
       name: platfo_tiles_141
       rect:
         serializedVersion: 2
-        x: 208
-        y: 112
-        width: 16
-        height: 16
+        x: 416
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3118,12 +3118,12 @@ TextureImporter:
       name: platfo_tiles_142
       rect:
         serializedVersion: 2
-        x: 224
-        y: 112
-        width: 16
-        height: 16
+        x: 448
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3139,12 +3139,12 @@ TextureImporter:
       name: platfo_tiles_143
       rect:
         serializedVersion: 2
-        x: 240
-        y: 112
-        width: 16
-        height: 16
+        x: 480
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3161,11 +3161,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 16
-        height: 16
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3181,12 +3181,12 @@ TextureImporter:
       name: platfo_tiles_145
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3207,12 +3207,12 @@ TextureImporter:
       name: platfo_tiles_146
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3228,12 +3228,12 @@ TextureImporter:
       name: platfo_tiles_147
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3249,12 +3249,12 @@ TextureImporter:
       name: platfo_tiles_148
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3274,12 +3274,12 @@ TextureImporter:
       name: platfo_tiles_149
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 16
+        x: 160
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3299,12 +3299,12 @@ TextureImporter:
       name: platfo_tiles_150
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 16
-        height: 16
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3324,12 +3324,12 @@ TextureImporter:
       name: platfo_tiles_151
       rect:
         serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 16
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3349,12 +3349,12 @@ TextureImporter:
       name: platfo_tiles_152
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 16
-        height: 16
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3374,12 +3374,12 @@ TextureImporter:
       name: platfo_tiles_153
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
-        width: 16
-        height: 16
+        x: 288
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3399,12 +3399,12 @@ TextureImporter:
       name: platfo_tiles_154
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 16
-        height: 16
+        x: 320
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -3424,12 +3424,12 @@ TextureImporter:
       name: platfo_tiles_155
       rect:
         serializedVersion: 2
-        x: 176
-        y: 96
-        width: 16
-        height: 16
+        x: 352
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3445,12 +3445,12 @@ TextureImporter:
       name: platfo_tiles_156
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 16
-        height: 16
+        x: 384
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3466,12 +3466,12 @@ TextureImporter:
       name: platfo_tiles_157
       rect:
         serializedVersion: 2
-        x: 208
-        y: 96
-        width: 16
-        height: 16
+        x: 416
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3487,12 +3487,12 @@ TextureImporter:
       name: platfo_tiles_158
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
-        width: 16
-        height: 16
+        x: 448
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3508,12 +3508,12 @@ TextureImporter:
       name: platfo_tiles_159
       rect:
         serializedVersion: 2
-        x: 240
-        y: 96
-        width: 16
-        height: 16
+        x: 480
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3530,11 +3530,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
-        width: 16
-        height: 16
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3550,12 +3550,12 @@ TextureImporter:
       name: platfo_tiles_161
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3571,12 +3571,12 @@ TextureImporter:
       name: platfo_tiles_162
       rect:
         serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 16
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3592,12 +3592,12 @@ TextureImporter:
       name: platfo_tiles_163
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
-        width: 16
-        height: 16
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3613,12 +3613,12 @@ TextureImporter:
       name: platfo_tiles_164
       rect:
         serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3634,12 +3634,12 @@ TextureImporter:
       name: platfo_tiles_165
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3655,12 +3655,12 @@ TextureImporter:
       name: platfo_tiles_166
       rect:
         serializedVersion: 2
-        x: 96
-        y: 80
-        width: 16
-        height: 16
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3676,12 +3676,12 @@ TextureImporter:
       name: platfo_tiles_167
       rect:
         serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3697,12 +3697,12 @@ TextureImporter:
       name: platfo_tiles_168
       rect:
         serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3718,12 +3718,12 @@ TextureImporter:
       name: platfo_tiles_169
       rect:
         serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
+        x: 288
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3739,12 +3739,12 @@ TextureImporter:
       name: platfo_tiles_170
       rect:
         serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
+        x: 320
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3760,12 +3760,12 @@ TextureImporter:
       name: platfo_tiles_171
       rect:
         serializedVersion: 2
-        x: 176
-        y: 80
-        width: 16
-        height: 16
+        x: 352
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3781,12 +3781,12 @@ TextureImporter:
       name: platfo_tiles_172
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 16
+        x: 384
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3802,12 +3802,12 @@ TextureImporter:
       name: platfo_tiles_173
       rect:
         serializedVersion: 2
-        x: 208
-        y: 80
-        width: 16
-        height: 16
+        x: 416
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3823,12 +3823,12 @@ TextureImporter:
       name: platfo_tiles_174
       rect:
         serializedVersion: 2
-        x: 224
-        y: 80
-        width: 16
-        height: 16
+        x: 448
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3844,12 +3844,12 @@ TextureImporter:
       name: platfo_tiles_175
       rect:
         serializedVersion: 2
-        x: 240
-        y: 80
-        width: 16
-        height: 16
+        x: 480
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3866,11 +3866,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 16
-        height: 16
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3886,12 +3886,12 @@ TextureImporter:
       name: platfo_tiles_177
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3907,12 +3907,12 @@ TextureImporter:
       name: platfo_tiles_178
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3928,12 +3928,12 @@ TextureImporter:
       name: platfo_tiles_179
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3949,12 +3949,12 @@ TextureImporter:
       name: platfo_tiles_180
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3970,12 +3970,12 @@ TextureImporter:
       name: platfo_tiles_181
       rect:
         serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 16
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3991,12 +3991,12 @@ TextureImporter:
       name: platfo_tiles_182
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 16
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4012,12 +4012,12 @@ TextureImporter:
       name: platfo_tiles_183
       rect:
         serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4033,12 +4033,12 @@ TextureImporter:
       name: platfo_tiles_184
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4054,12 +4054,12 @@ TextureImporter:
       name: platfo_tiles_185
       rect:
         serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4075,12 +4075,12 @@ TextureImporter:
       name: platfo_tiles_186
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 16
+        x: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4096,12 +4096,12 @@ TextureImporter:
       name: platfo_tiles_187
       rect:
         serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 16
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4117,12 +4117,12 @@ TextureImporter:
       name: platfo_tiles_188
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 16
-        height: 16
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4138,12 +4138,12 @@ TextureImporter:
       name: platfo_tiles_189
       rect:
         serializedVersion: 2
-        x: 208
-        y: 64
-        width: 16
-        height: 16
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4159,12 +4159,12 @@ TextureImporter:
       name: platfo_tiles_190
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 16
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4180,12 +4180,12 @@ TextureImporter:
       name: platfo_tiles_191
       rect:
         serializedVersion: 2
-        x: 240
-        y: 64
-        width: 16
-        height: 16
+        x: 480
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4202,11 +4202,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4222,12 +4222,12 @@ TextureImporter:
       name: platfo_tiles_193
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4243,12 +4243,12 @@ TextureImporter:
       name: platfo_tiles_194
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4264,12 +4264,12 @@ TextureImporter:
       name: platfo_tiles_195
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4285,12 +4285,12 @@ TextureImporter:
       name: platfo_tiles_196
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4306,12 +4306,12 @@ TextureImporter:
       name: platfo_tiles_197
       rect:
         serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4327,12 +4327,12 @@ TextureImporter:
       name: platfo_tiles_198
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4348,12 +4348,12 @@ TextureImporter:
       name: platfo_tiles_199
       rect:
         serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4369,12 +4369,12 @@ TextureImporter:
       name: platfo_tiles_200
       rect:
         serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4390,12 +4390,12 @@ TextureImporter:
       name: platfo_tiles_201
       rect:
         serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -4418,12 +4418,12 @@ TextureImporter:
       name: platfo_tiles_202
       rect:
         serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
+        x: 320
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4439,12 +4439,12 @@ TextureImporter:
       name: platfo_tiles_203
       rect:
         serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4460,12 +4460,12 @@ TextureImporter:
       name: platfo_tiles_204
       rect:
         serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4481,12 +4481,12 @@ TextureImporter:
       name: platfo_tiles_205
       rect:
         serializedVersion: 2
-        x: 208
-        y: 48
-        width: 16
-        height: 16
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4502,12 +4502,12 @@ TextureImporter:
       name: platfo_tiles_206
       rect:
         serializedVersion: 2
-        x: 224
-        y: 48
-        width: 16
-        height: 16
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4523,12 +4523,12 @@ TextureImporter:
       name: platfo_tiles_207
       rect:
         serializedVersion: 2
-        x: 240
-        y: 48
-        width: 16
-        height: 16
+        x: 480
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4545,11 +4545,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4565,12 +4565,12 @@ TextureImporter:
       name: platfo_tiles_209
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4586,12 +4586,12 @@ TextureImporter:
       name: platfo_tiles_210
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4607,12 +4607,12 @@ TextureImporter:
       name: platfo_tiles_211
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4628,12 +4628,12 @@ TextureImporter:
       name: platfo_tiles_212
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4649,12 +4649,12 @@ TextureImporter:
       name: platfo_tiles_213
       rect:
         serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4670,12 +4670,12 @@ TextureImporter:
       name: platfo_tiles_214
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 16
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4691,12 +4691,12 @@ TextureImporter:
       name: platfo_tiles_215
       rect:
         serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 16
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4712,12 +4712,12 @@ TextureImporter:
       name: platfo_tiles_216
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4733,12 +4733,12 @@ TextureImporter:
       name: platfo_tiles_217
       rect:
         serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -4761,12 +4761,12 @@ TextureImporter:
       name: platfo_tiles_218
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
+        x: 320
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4782,12 +4782,12 @@ TextureImporter:
       name: platfo_tiles_219
       rect:
         serializedVersion: 2
-        x: 176
-        y: 32
-        width: 16
-        height: 16
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4803,12 +4803,12 @@ TextureImporter:
       name: platfo_tiles_220
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 16
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4824,12 +4824,12 @@ TextureImporter:
       name: platfo_tiles_221
       rect:
         serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 16
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4845,12 +4845,12 @@ TextureImporter:
       name: platfo_tiles_222
       rect:
         serializedVersion: 2
-        x: 224
-        y: 32
-        width: 16
-        height: 16
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4866,12 +4866,12 @@ TextureImporter:
       name: platfo_tiles_223
       rect:
         serializedVersion: 2
-        x: 240
-        y: 32
-        width: 16
-        height: 16
+        x: 480
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4888,11 +4888,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4908,12 +4908,12 @@ TextureImporter:
       name: platfo_tiles_225
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4929,12 +4929,12 @@ TextureImporter:
       name: platfo_tiles_226
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4950,12 +4950,12 @@ TextureImporter:
       name: platfo_tiles_227
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4971,12 +4971,12 @@ TextureImporter:
       name: platfo_tiles_228
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4992,12 +4992,12 @@ TextureImporter:
       name: platfo_tiles_229
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5013,12 +5013,12 @@ TextureImporter:
       name: platfo_tiles_230
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5038,12 +5038,12 @@ TextureImporter:
       name: platfo_tiles_231
       rect:
         serializedVersion: 2
-        x: 112
-        y: 16
-        width: 16
-        height: 16
+        x: 224
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5063,12 +5063,12 @@ TextureImporter:
       name: platfo_tiles_232
       rect:
         serializedVersion: 2
-        x: 128
-        y: 16
-        width: 16
-        height: 16
+        x: 256
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5092,12 +5092,12 @@ TextureImporter:
       name: platfo_tiles_233
       rect:
         serializedVersion: 2
-        x: 144
-        y: 16
-        width: 16
-        height: 16
+        x: 288
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5120,12 +5120,12 @@ TextureImporter:
       name: platfo_tiles_234
       rect:
         serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
+        x: 320
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5145,12 +5145,12 @@ TextureImporter:
       name: platfo_tiles_235
       rect:
         serializedVersion: 2
-        x: 176
-        y: 16
-        width: 16
-        height: 16
+        x: 352
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5166,12 +5166,12 @@ TextureImporter:
       name: platfo_tiles_236
       rect:
         serializedVersion: 2
-        x: 192
-        y: 16
-        width: 16
-        height: 16
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5187,12 +5187,12 @@ TextureImporter:
       name: platfo_tiles_237
       rect:
         serializedVersion: 2
-        x: 208
-        y: 16
-        width: 16
-        height: 16
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5208,12 +5208,12 @@ TextureImporter:
       name: platfo_tiles_238
       rect:
         serializedVersion: 2
-        x: 224
-        y: 16
-        width: 16
-        height: 16
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5229,12 +5229,12 @@ TextureImporter:
       name: platfo_tiles_239
       rect:
         serializedVersion: 2
-        x: 240
-        y: 16
-        width: 16
-        height: 16
+        x: 480
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5252,10 +5252,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5271,12 +5271,12 @@ TextureImporter:
       name: platfo_tiles_241
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5292,12 +5292,12 @@ TextureImporter:
       name: platfo_tiles_242
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5313,12 +5313,12 @@ TextureImporter:
       name: platfo_tiles_243
       rect:
         serializedVersion: 2
-        x: 48
+        x: 96
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5334,12 +5334,12 @@ TextureImporter:
       name: platfo_tiles_244
       rect:
         serializedVersion: 2
-        x: 64
+        x: 128
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5355,12 +5355,12 @@ TextureImporter:
       name: platfo_tiles_245
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5376,12 +5376,12 @@ TextureImporter:
       name: platfo_tiles_246
       rect:
         serializedVersion: 2
-        x: 96
+        x: 192
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5401,12 +5401,12 @@ TextureImporter:
       name: platfo_tiles_247
       rect:
         serializedVersion: 2
-        x: 112
+        x: 224
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5426,12 +5426,12 @@ TextureImporter:
       name: platfo_tiles_248
       rect:
         serializedVersion: 2
-        x: 128
+        x: 256
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5451,12 +5451,12 @@ TextureImporter:
       name: platfo_tiles_249
       rect:
         serializedVersion: 2
-        x: 144
+        x: 288
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5478,12 +5478,12 @@ TextureImporter:
       name: platfo_tiles_250
       rect:
         serializedVersion: 2
-        x: 160
+        x: 320
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -5503,12 +5503,12 @@ TextureImporter:
       name: platfo_tiles_251
       rect:
         serializedVersion: 2
-        x: 176
+        x: 352
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5524,12 +5524,12 @@ TextureImporter:
       name: platfo_tiles_252
       rect:
         serializedVersion: 2
-        x: 192
+        x: 384
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5545,12 +5545,12 @@ TextureImporter:
       name: platfo_tiles_253
       rect:
         serializedVersion: 2
-        x: 208
+        x: 416
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5566,12 +5566,12 @@ TextureImporter:
       name: platfo_tiles_254
       rect:
         serializedVersion: 2
-        x: 224
+        x: 448
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5587,12 +5587,12 @@ TextureImporter:
       name: platfo_tiles_255
       rect:
         serializedVersion: 2
-        x: 240
+        x: 480
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5654,8 +5654,8 @@ TextureImporter:
       platfo_tiles_190: -1096299836
       platfo_tiles_188: -1324193136
       platfo_tiles_12: 1860344964
-      platfo_tiles_237: -1910828537
       platfo_tiles_218: -137571409
+      platfo_tiles_237: -1910828537
       platfo_tiles_241: 1873796115
       platfo_tiles_247: 660245357
       platfo_tiles_196: 378712678
