@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Eggship : Block
 {
+    private const float DUST_DURATION = 1f;
     private float MOVE_SPEED { get { return Linecast()? 0 : 0.5f; }}
 
     [SerializeField] private Vector2 direction;
     [SerializeField] private BoxCollider2D boxCollider2D;
+    [SerializeField] private GameObject eggshipDust;
 
     private Rigidbody2D rb2D;
 
@@ -21,6 +23,7 @@ public class Eggship : Block
     {
         this.rb2D = GetComponent<Rigidbody2D>();
         this.boxCollider2D = GetComponent<BoxCollider2D>();
+        InvokeRepeating("CreateDust", DUST_DURATION, DUST_DURATION);
     }
 
     protected override void PlayerEnterAction(PlayerMovement playerMovement)
@@ -63,5 +66,10 @@ public class Eggship : Block
     {
         int layerInt = LayerMask.NameToLayer(layerName);
         gameObject.layer = layerInt;
+    }
+
+    private void CreateDust()
+    {
+        Instantiate(eggshipDust, transform.position, Quaternion.identity);
     }
 }

@@ -4,8 +4,6 @@ public class PlayerSausageState : PlayerState
 {
     public override void HandleEnter(PlayerMovement playerMovement)
     {
-        Debug.Log("Entered Sausage State!");
-
         // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         capsuleCollider2D.size = new Vector2(1.875f, 0.75f);
@@ -23,5 +21,11 @@ public class PlayerSausageState : PlayerState
 
         Animator animator = playerMovement.Animator;
         animator.Play("Birdsausage_Celebrate");
+    }
+    
+    public override void OnDie(PlayerMovement playerMovement)
+    {
+        Animator animator = playerMovement.Animator;
+        animator.Play("Birdsausage_Dying");
     }
 }

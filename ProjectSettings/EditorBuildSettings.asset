@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Intro/IntroCutscene.unity
+    path: Assets/Scenes/Intro/BaseCutscene.unity
     guid: 03c76ae805860b54bac7897ce3aa7039
+  - enabled: 1
+    path: Assets/Scenes/Intro/BaseOverworld.unity
+    guid: cf36f83a8297f054aa5ebc2b81571eac
   - enabled: 1
     path: Assets/Scenes/Intro/Menu.unity
     guid: 43d708fdf33755048aaa47dcb908ea1e
@@ -59,4 +62,79 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Base/Base_Tutorial.unity
     guid: 57d58f99f72248c42b60bf6a7a6779ee
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_Bodyguard.unity
+    guid: 830a6d6cf72a27542bdfc1243077656a
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_Climbing.unity
+    guid: bd95ac5a88ef4784984dfd5950522939
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_DripCaveat.unity
+    guid: 50d5acf264edb5f42b7fc71fd24a0913
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_DripTutorial.unity
+    guid: 380679cb716b6d944a103603a3f934fe
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_DripTutorialExtra.unity
+    guid: 34973b11290728f4b9855d638379bede
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_DropBlock.unity
+    guid: 066f6d5359e3852488a126076d18e168
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_Grab.unity
+    guid: d61574df43e86a746847ef4d92abb36f
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_LavaFall.unity
+    guid: ef36ca9bccd6be24fa042c82cee28d03
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_Tutorial.unity
+    guid: e322b9e3707e2bc47a5e4462cdd86203
+  - enabled: 1
+    path: Assets/Scenes/Lava/Lava_Umbrella.unity
+    guid: d9ccd88f64148c445aa948a7b31afa59
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_BackForth.unity
+    guid: 9657e7a0374223d43828d32cd36030d0
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_Cave.unity
+    guid: 2af43f14ff7d6114daa908c22adec4f4
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_EggshipAppears.unity
+    guid: c125306c18ddf284e9dfb090d3352e94
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_EggshipPipes.unity
+    guid: 772eef66f0dbf944ca5c1c041921342b
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_EggshipTutorial.unity
+    guid: 7b76bcc6598e32f44ae5ba5f64358db1
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_EggSimple.unity
+    guid: 9002136bf6db273499348cfcacf2140e
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_HorizontalPreTouch.unity
+    guid: e33bbe594e4f2e04c99eff00f1a2e4e6
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_LongPreTouch.unity
+    guid: ca2f055052710c74f8e29a4a09915511
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_LotsABlobs.unity
+    guid: 025371ac6e946464c9d529331fc30171
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_OneWay.unity
+    guid: 37741460e43e3714780208a44594d217
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_Pipes.unity
+    guid: 5c19856965441af4c977629ccf5a860c
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_PrePath.unity
+    guid: faa27b0a55ae24e4abf7f5f1179b886e
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_PreTouch.unity
+    guid: 192e59ba30b8c544da3e5284a03d1b74
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_SausageTouch.unity
+    guid: 803b6948c54613848aae1409cbb010c9
+  - enabled: 1
+    path: Assets/Scenes/Space/Space_TouchFall.unity
+    guid: f53d62a7540a40344b6195d020177074
   m_configObjects: {}

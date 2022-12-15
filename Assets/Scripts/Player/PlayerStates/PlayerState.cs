@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerState
+public abstract class PlayerState
 {
     protected virtual float FALL_MULTIPLIER { get { return 1.5f; }}
     protected virtual float MOVE_SPEED { get { return 2.5f; } }
@@ -42,13 +42,8 @@ public class PlayerState
         }
     }
 
-    public virtual void OnWin(PlayerMovement playerMovement) 
-    {
-        // Rigidbody2D rigidbody2D = playerMovement.Rigidbody2D;
-        // Vector2 gravityDirectionVector = Vector2.ClampMagnitude(Physics2D.gravity, 1.0f);
-        // rigidbody2D.velocity = Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) * gravityDirectionVector;
-        // Debug.Log("PLAYER WON!"); 
-    }
+    public virtual void OnDie(PlayerMovement playerMovement) {}
+    public virtual void OnWin(PlayerMovement playerMovement) {}
 
     protected bool IsGrounded(PlayerMovement playerMovement)
     {

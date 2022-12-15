@@ -18,16 +18,21 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private const float GLOW_SPEED = 5f;
+    private const float DEATH_BOUNCE_SPEED = 4f;
+    private const float DEATH_FREEZE_TIME = 0.5f;
 
     private Animator _animator;
     private CapsuleCollider2D _capsuleCollider2D;
     private Rigidbody2D _rb2D;
     private Material _material;
+    private SpriteRenderer _spriteRenderer;
 
     private PlayerState _playerState;
     private Coroutine glowCoroutine;
+
     private bool _stateWasChanged = true;
     private bool _isWinning = false;
+    private bool _isDying = false;
 
     private void OnEnable() { GameManager.OnWin += OnWin; }
     private void OnDisable() { GameManager.OnWin -= OnWin; }
@@ -39,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
         this._capsuleCollider2D = GetComponent<CapsuleCollider2D>();
         this._rb2D = GetComponent<Rigidbody2D>();
         this._material = GetComponent<SpriteRenderer>().material;
+        this._spriteRenderer = GetComponent<SpriteRenderer>();
 
         this._playerState = new PlayerBaseState();
 
@@ -60,6 +66,12 @@ public class PlayerMovement : MonoBehaviour
             this._rb2D.velocity = new Vector2(0, this._rb2D.velocity.y);
             return;
         }
+
+        if (this._isDying) 
+        {
+            this._rb2D.velocity = new Vector2(0, this._rb2D.velocity.y);
+            return;
+        }
         
         this._playerState.HandleInput(this);
         this._playerState.HandleAnimation(this);
@@ -73,12 +85,44 @@ public class PlayerMovement : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);
+        if (!this._isDying) 
+        {
+            this._playerState.OnDie(this);
+            ShowInFront();
+            StartCoroutine(DieCoroutine());
+            GameManager.instance.ScreenShake();
+        }
+
+        this._isDying = true;
+    }
+
+    private IEnumerator DieCoroutine()
+    {
+        Vector2 previousGravity = Physics2D.gravity;
+        Physics2D.gravity = Vector2.zero;
+        this._rb2D.velocity = Vector2.zero;
+
+        float timePassed = 0;
+        while (timePassed < DEATH_FREEZE_TIME)
+        {
+            timePassed += Time.deltaTime;
+            yield return null;
+        }
+
+        this._capsuleCollider2D.enabled = false;
+        Physics2D.gravity = previousGravity;
+        this._rb2D.velocity = Physics2D.gravity.normalized * -DEATH_BOUNCE_SPEED;
+    }
+
+    private void ShowInFront()
+    {
+        this._spriteRenderer.sortingLayerName = "Foreground";
+        this._spriteRenderer.sortingOrder = 3;
     }
 
     public void ResetVelocity()
     {
-        this._rb2D.velocity = new Vector2(0, 0);
+        this._rb2D.velocity = -Physics2D.gravity;
     }
 
     public void Glow()

@@ -6,8 +6,6 @@ public class PlayerEggState : PlayerState
 
     public override void HandleEnter(PlayerMovement playerMovement)
     {
-        Debug.Log("Entered Egg State!");
-        
         // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         capsuleCollider2D.size = new Vector2(0.9f, 0.9f);
@@ -31,5 +29,13 @@ public class PlayerEggState : PlayerState
 
         if (this._facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Celebrate_Left");
         else animator.Play("Birdegg_Celebrate_Right");
+    }
+
+    public override void OnDie(PlayerMovement playerMovement)
+    {
+        Animator animator = playerMovement.Animator;
+
+        if (this._facingDirection == FacingDirection.LEFT) animator.Play("Birdegg_Dying_Left");
+        else animator.Play("Birdegg_Dying_Right");
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerOverworld : MonoBehaviour
 {
-    private const float MOVE_TIME = 0.125f;
+    private const float MOVE_TIME = 0.175f;
     private const float INVERSE_MOVE_TIME = 1f / MOVE_TIME;
-    private const float MOVE_PAUSE_TIME = 0.025f;
+    private const float MOVE_PAUSE_TIME = 0.0125f;
 
     private bool _isMoving = false;
 
@@ -40,8 +40,13 @@ public class PlayerOverworld : MonoBehaviour
     {
         if (this._isMoving) return;
 
-        this._isMoving = true;
-        StartCoroutine(SmoothMovement(endPosition));
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, endPosition, LayerMask.GetMask("BlockingLayer"));
+
+        if (hit.collider == null) 
+        {
+            this._isMoving = true;
+            StartCoroutine(SmoothMovement(endPosition));
+        }
     }
 
     private IEnumerator SmoothMovement (Vector2 endPosition)

@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
     private const float SCREEN_SHAKE_CYCLES = 2f;
-    private const float SCREEN_SHAKE_CYCLES_RADIANS = 5f * 2f * Mathf.PI;
+    private const float SCREEN_SHAKE_CYCLES_RADIANS = SCREEN_SHAKE_CYCLES * 2f * Mathf.PI;
     private const float SCREEN_SHAKE_SPEED = 100f;
     private const float SCREEN_SHAKE_MAGNITUDE = 0.075f;
 
@@ -72,7 +72,6 @@ public class GameManager : MonoBehaviour
     {
         if (itemsLeft == 0)
         {
-            Debug.Log("Won");
             if (OnWin != null)
                 OnWin();
         }

@@ -126,3 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   passiveSprite: {fileID: 793176796, guid: 87017d52346b5744c92db521fcfe5f52, type: 3}
   activeSprite: {fileID: -2134311661, guid: 87017d52346b5744c92db521fcfe5f52, type: 3}
+  passiveDoneSprite: {fileID: 540898245, guid: 87017d52346b5744c92db521fcfe5f52, type: 3}
+  activeDoneSprite: {fileID: 1412297977, guid: 87017d52346b5744c92db521fcfe5f52, type: 3}
+  level: 
+  complete: 0

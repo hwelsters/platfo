@@ -197,6 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0}
   boxCollider2D: {fileID: 5893567275967287589}
+  eggshipDust: {fileID: 6012729995861294297, guid: 8702981524c51384a8a980a4c60aa372, type: 3}
 --- !u!114 &7897354882284858957
 MonoBehaviour:
   m_ObjectHideFlags: 0

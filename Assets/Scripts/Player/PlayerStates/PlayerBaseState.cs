@@ -4,8 +4,6 @@ public class PlayerBaseState : PlayerState
 {
     public override void HandleEnter(PlayerMovement playerMovement)
     {
-        Debug.Log("Entered Base State!");
-        
         // Modify CapsuleCollider2D values to fit sprite shape
         CapsuleCollider2D capsuleCollider2D = playerMovement.CapsuleCollider2D;
         capsuleCollider2D.size = new Vector2(0.75f, 0.85f);
@@ -35,5 +33,12 @@ public class PlayerBaseState : PlayerState
 
         bool isAlreadyCelebrating = animator.GetCurrentAnimatorStateInfo(0).IsName("Birdman_Celebrate_Loop");
         if (!isAlreadyCelebrating) animator.Play("Birdman_Celebrate");
+    }
+
+    
+    public override void OnDie(PlayerMovement playerMovement)
+    {
+        Animator animator = playerMovement.Animator;
+        animator.Play("Birdman_Dying");
     }
 }
