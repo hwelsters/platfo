@@ -25,8 +25,6 @@ public abstract class PlayerState
         this._yVelocity = this._isGrounded && PressedJump() ? this.JUMP_SPEED : -Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity);
 
         // FOUND THE PROBLEM
-        // if (Global.ScalarProjection(rigidbody2D.velocity, Physics2D.gravity) > 0) this._yVelocity += -Physics2D.gravity.magnitude * (FALL_MULTIPLIER - 1) * Time.deltaTime;
-        
         Vector2 gravityDirection = Physics2D.gravity.normalized;
         rigidbody2D.velocity = Vector2.Perpendicular(gravityDirection) * this._xVelocity - gravityDirection * this._yVelocity;
     }

@@ -161,14 +161,55 @@ MonoBehaviour:
     text: 'Pepi saw a strange figure approaching from afar
 
 '
+  - image: {fileID: 2066025205, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
+    text: 'Pepi: Hello?'
   - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
     text: '???: Hello!'
   - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
-    text: '???: Hello!'
+    text: 'Eggship: You seem kinda lost!'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: Do you need a hand?'
+  - image: {fileID: 2066025205, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
+    text: 'Pepi: ...'
+  - image: {fileID: -204036616, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: I don''t have hands...'
+  - image: {fileID: 2066025205, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
+    text: 'Pepi: ...'
+  - image: {fileID: -421634345, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: ...'
+  - image: {fileID: 2066025205, guid: fd89b5407b31fe24e9e0a9e57f680964, type: 3}
+    text: 'Pepi: ...'
+  - image: {fileID: -204036616, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: ...'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: I''ve been stuck underground for a long time so I know it really
+      well.'
+  - image: {fileID: 1697803883, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: I can fly around! So I can easily help you to reach hard to reach
+      locations'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: If you want to change direction while flying, all you have to
+      do is hop on my head!'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: Hehe'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: ...'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: Say, you''re trying to escape this hellish hellhole too aren''t
+      you?'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: I can''t escape since I lack the power of eating.'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: I am unable to eat food.'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: As such, it is impossible for me to gather enough energy to unlock
+      the big door at the end of this world.'
+  - image: {fileID: 278598437, guid: 784b811ba48ce7a47918d331d9c79021, type: 3}
+    text: 'Eggship: If we worked together, I bet we''d be able to escape...'
   introImage: {fileID: 1213339243}
   fadeImage: {fileID: 104273266}
   introText: {fileID: 1248547098}
-  nextScene: Scenes/Intro/BaseOverworld
+  nextScene: Scenes/Intro/LavaOverworld
 --- !u!4 &95600882
 Transform:
   m_ObjectHideFlags: 0
@@ -381,6 +422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2200100980009453121, guid: c69bb9dafb66df949be60f0198c53927, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: adf858f672cd09a47b1421c997665560, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c69bb9dafb66df949be60f0198c53927, type: 3}
 --- !u!1 &1213339240

@@ -28,14 +28,23 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
 
     private PlayerState _playerState;
-    private Coroutine glowCoroutine;
+
+    private Coroutine _deathCoroutine;
+    private Coroutine _glowCoroutine;
 
     private bool _stateWasChanged = true;
     private bool _isWinning = false;
     private bool _isDying = false;
 
     private void OnEnable() { GameManager.OnWin += OnWin; }
-    private void OnDisable() { GameManager.OnWin -= OnWin; }
+
+    private void OnDisable()
+    {
+        GameManager.OnWin -= OnWin;
+        // BRUH, WHY DO I HAVE TO CLEAN UP THESE COROUTINES???
+        if (this._deathCoroutine != null) StopCoroutine(this._deathCoroutine);
+        if (this._glowCoroutine != null) StopCoroutine(this._glowCoroutine);
+    }
 
     public void Start()
     {
@@ -60,18 +69,14 @@ public class PlayerMovement : MonoBehaviour
             this._playerState.HandleEnter(this);
             this._stateWasChanged = false;
         }
-        
+
         if (this._isWinning) 
         {
             this._rb2D.velocity = new Vector2(0, this._rb2D.velocity.y);
             return;
         }
-
-        if (this._isDying) 
-        {
-            this._rb2D.velocity = new Vector2(0, this._rb2D.velocity.y);
-            return;
-        }
+        
+        if (this._isDying) return;
         
         this._playerState.HandleInput(this);
         this._playerState.HandleAnimation(this);
@@ -87,19 +92,19 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!this._isDying) 
         {
-            this._playerState.OnDie(this);
             ShowInFront();
-            StartCoroutine(DieCoroutine());
+            this._deathCoroutine = StartCoroutine(DieCoroutine());
             GameManager.instance.ScreenShake();
         }
 
+        this._playerState.OnDie(this);
         this._isDying = true;
     }
 
     private IEnumerator DieCoroutine()
     {
         Vector2 previousGravity = Physics2D.gravity;
-        Physics2D.gravity = Vector2.zero;
+        Physics2D.gravity = new Vector2(0.00001f, 0.00001f);
         this._rb2D.velocity = Vector2.zero;
 
         float timePassed = 0;
@@ -122,13 +127,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void ResetVelocity()
     {
-        this._rb2D.velocity = -Physics2D.gravity;
+        this._rb2D.velocity = Vector2.zero;
     }
 
     public void Glow()
     {
-        if (glowCoroutine != null) StopCoroutine(glowCoroutine);
-        glowCoroutine = StartCoroutine(GlowCoroutine());
+        if (_glowCoroutine != null) StopCoroutine(_glowCoroutine);
+        _glowCoroutine = StartCoroutine(GlowCoroutine());
     }
 
     private IEnumerator GlowCoroutine()

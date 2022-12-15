@@ -35,6 +35,8 @@ public class Teleport : Block
 
     private void HandlePlayerRotation(PlayerMovement playerMovement)
     {
+        playerMovement.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        
         // Get difference between two quaternions
         Quaternion playerRotation = playerMovement.transform.rotation;
         Quaternion currentGravityDirection = Quaternion.Euler(0, 0, (float) this.currentGravityDirection * 90f);
