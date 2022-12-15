@@ -2368,7 +2368,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 32
+        width: 96
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2379,48 +2379,6 @@ TextureImporter:
       bones: []
       spriteID: 821144d790b58944da2130c44d05f786
       internalID: 1808021620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platfo_actors_113
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53e45284abb53454ca27adda3773c0d5
-      internalID: 1179546932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platfo_actors_114
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a6f3917e5810f74d93875ae996caa88
-      internalID: -1758353940
       vertices: []
       indices: 
       edges: []
