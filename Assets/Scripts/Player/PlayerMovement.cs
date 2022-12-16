@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private const float GLOW_SPEED = 5f;
     private const float DEATH_BOUNCE_SPEED = 4f;
     private const float DEATH_FREEZE_TIME = 0.5f;
+    private const float DUST_DURATION = 1f;
 
     private Animator _animator;
     private CapsuleCollider2D _capsuleCollider2D;
@@ -59,7 +60,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Configure Rigidbody2D
         this._rb2D.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-
     }
 
     public void Update()
@@ -103,9 +103,8 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DieCoroutine()
     {
-        Vector2 previousGravity = Physics2D.gravity;
-        Physics2D.gravity = new Vector2(0.00001f, 0.00001f);
         this._rb2D.velocity = Vector2.zero;
+        this._rb2D.isKinematic = true;
 
         float timePassed = 0;
         while (timePassed < DEATH_FREEZE_TIME)
@@ -114,8 +113,8 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
 
+        this._rb2D.isKinematic = false;
         this._capsuleCollider2D.enabled = false;
-        Physics2D.gravity = previousGravity;
         this._rb2D.velocity = Physics2D.gravity.normalized * -DEATH_BOUNCE_SPEED;
     }
 
@@ -148,4 +147,5 @@ public class PlayerMovement : MonoBehaviour
         }
         this._material.SetFloat("_GlowTime", 0f);
     }
+
 }

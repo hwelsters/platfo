@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Global
 {
+    public const float GRAVITY_SCALE = 1.5f;
     public static bool FloatIsZero(float value)
     {
         return Mathf.Abs(value) < float.Epsilon;

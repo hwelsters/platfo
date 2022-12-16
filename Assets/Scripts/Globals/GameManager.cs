@@ -65,7 +65,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         instance = this;
-        Physics2D.gravity = Vector2.down * Physics2D.gravity.magnitude;
     }
 
     private void Update()
