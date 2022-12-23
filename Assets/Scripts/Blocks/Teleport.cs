@@ -54,6 +54,6 @@ public class Teleport : Block
 
     private void ResetPlayerVelocity(PlayerMovement playerMovement)
     {
-        playerMovement.ResetVelocity();
+        if (playerMovement != null) playerMovement.ResetVelocity();
     }
 }

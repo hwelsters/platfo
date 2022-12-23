@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour
 
     private void Reset()
     {
+        Physics2D.gravity = Physics2D.gravity.magnitude * Vector2.down;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
